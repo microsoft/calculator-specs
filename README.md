@@ -17,7 +17,7 @@ We welcome your contributions to the project, and we thank you for your interest
 
 2. Create a new directory for your spec under the `active` directory: `/active/<feature>`
 
-3. Write your spec following the spec template, leveraging relative links when referencing images or other assets in the directory
+3. Write your spec following the [spec template](./spec_template.md), leveraging relative links when referencing images or other assets in the directory
 
 4. When your spec is ready for review, open a new pull request to merge your spec into the `master` branch
 
