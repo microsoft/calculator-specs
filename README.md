@@ -25,6 +25,22 @@ We welcome your contributions to the project, and we thank you for your interest
 
 6. After your feature ships, move your spec from `active` to `archive`
 
+### Spec review
+Once there is a high-fidelity design which addresses the goals described in the original pitch, the
+Microsoft product team will review the prototype and ensure all items on this checklist are
+addressed:
+
+- [ ] Is there a high-fidelity design which gives reviewers a clear idea of how the feature will
+  look and function when implemented?
+- [ ] Has the plan been shared with the community (documented on the wiki and updates posted in the
+  original issue) and have others been given an opportunity to provide suggestions?
+- [ ] Are [Fluent design principles](https://docs.microsoft.com/en-us/windows/uwp/design/fluent-design-system/)
+  followed? If we do something which deviates from the guidelines, do we have a good reason?
+- [ ] Does the design include provisions for [all users](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/designing-inclusive-software)
+  and [all cultures](https://docs.microsoft.com/en-us/windows/uwp/design/globalizing/guidelines-and-checklist-for-globalizing-your-app)?
+- [ ] Is it technically feasible to build this feature? Take a look at the "before committing"
+  checklist below and identify any issues which are likely to be blockers.
+
 ## Contributor License Agreement
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
