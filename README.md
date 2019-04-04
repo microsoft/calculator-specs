@@ -27,7 +27,7 @@ We welcome your contributions to the project, and we thank you for your interest
 
 ### Spec review
 Once there is a high-fidelity design which addresses the goals described in the original pitch, the
-Microsoft product team will review the prototype and ensure all items on this checklist are
+Microsoft product team will review the spec and ensure all items on this checklist are
 addressed:
 
 - [ ] Is there a high-fidelity design which gives reviewers a clear idea of how the feature will
