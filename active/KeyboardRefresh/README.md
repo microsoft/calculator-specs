@@ -1,18 +1,22 @@
 > See comments in Markdown for tips on how to use this spec template
 
 ### Problem Statement
-<!-- What problem are we trying to solve? Who’s the target audience? Is there a customer need or pain point we need to remedy? Is there a business goal or metric we are trying to improve? Do we have a hypothesis we want to prove or disprove? -->
+The Calculator keyboard requires some changes to meet the demands of upcoming features, including graphing mode and always-on-top mode. Furthermore, the current standard keyboard could be better at accommodating scaled screen sizes, which improves overall accessibility of the app. There are a number of other problems this spec seeks to address, including reducing confusion over the up arrow used as the shift key and reducing the number of keyboard layout states.
 
 ### Evidence or User Insights
-<!-- Why should we do this? Potential sources of data: Feedback Hub, other GitHub issues, other anecdotes from listening to customers in person or online, request from another team, telemetry data, user research, market or competitive research -->
+The current keyboard is not scalable to support new minimum size requirements for CompactOverlay mode, nor is it extensible to support additional functionality in graphing calculator.
 
 ### Proposal
-<!-- How will the solution/feature help us solve the problem? How will it meet the target audience’s needs? If there are business goals or metrics, how does this improve them? -->
+Update they keyboard app-wide for increased consistency and greater extensibility to prepare for upcoming feature improvements.
 
 ### Goals and Non-Goals
-<!-- Goals: What do you want to accomplish with this idea? These are not feature requirements, but rather broad goals you are trying to accomplish. -->
+**Goals**
+* No functionality takebacks in existing calculator modes
+* Opportunistically add missing functionality across modes
+* Increase clarity around shifted operations
 
-<!-- Non-Goals: What do you want to accomplish with this idea? These are not feature requirements, but rather broad goals you are trying to accomplish. -->
+**Non-Goals**
+* Changes to display option buttons are out of scope (e.g., BYTE/WORD mode in programmer calculator), unless the button is better suited to be included in the keyboard
 
 ### Success Criteria
 <!-- How do we measure if things are successful? What’s the metric/KPI to track? Include proposed success metrics here. -->
