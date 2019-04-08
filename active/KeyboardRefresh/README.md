@@ -186,12 +186,38 @@ Conversion between many units of measurement.
 <details><summary>Operator Panels</summary>
 
 ### Operator Panels
-![Operator Panel](./operatorPanel.png)
+|![Operator Panel](./operatorPanel.png)|![Operator Panel](./operatorPanelAnnotated.png)|
+|:-:|:-:|
+| After | Annotated |
+
+**Red Region - Operator Panel**
+* Operator groups ordered from most common to least common
+* For small screen sizes or long localized strings, operator groups should overflow off the side and FlipView-like arrow buttons will appear (you can also scroll)
+
+**Green Region - Toggle Buttons**
+* Toggle button pattern with chevron flip to indicate toggle state
+
+**Orange Region - Flyout**
+* Panel is light-dismissible and closes if user clicks a button
+* Buttons follow same styling as other keyboard buttons
+
+#### Trig
 ![Operator Panel](./operatorPanelTrigAnnotated.png)
+
+#### Functions
 ![Operator Panel](./operatorPanelFunctionsAnnotated.png)
+
+#### Inequalities
 ![Operator Panel](./operatorPanelInequalitiesAnnotated.png)
+
+#### Bitwise Operators
 ![Operator Panel](./operatorPanelBitwiseAnnotated.png)
+
+#### Bit Shifts
 ![Operator Panel](./operatorPanelShiftOptions.png)
+
+* Default to Arithmetic Shift every time you enter programmer mode
+* If user changes option, preserve through mode session (i.e., if they leave and come back, reset)
 
 </details>
 
