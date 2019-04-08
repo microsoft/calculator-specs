@@ -44,23 +44,33 @@ _**Note:** Strings and icons below are not final._
 |:-:|:-:|
 | Before | After |
 
+![Standard Calculator Annotated Changes](./standardAnnotated.png)
+
 #### Scientific Mode
 |![Scientific Calculator Before](./scientificBefore.png)|![Scientific Calculator After](./scientificAfter.png)|
 |:-:|:-:|
 | Before | After |
+
+![Scientific Calculator Annotated Changes](./scientificAnnotated.png)
 
 #### Programmer Mode
 |![Programmer Calculator Before](./programmerBefore.png)|![Programmer Calculator After](./programmerAfter.png)|
 |:-:|:-:|
 | Before | After |
 
+![Programmer Calculator Annotated Changes](./programmerAnnotated.png)
+
 #### Converters
 |![Converter Before](./converterBefore.png)|![Converter After](./converterAfter.png)|
 |:-:|:-:|
 | Before | After |
 
+![Converter Annotated Changes](./converterAnnotated.png)
+
 #### Graphing Mode (_new_)
 ![Graphing Calculator](./graphingAfter.png)
+
+![Graphing Calculator Annotated Changes](./graphingAnnotated.png)
 
 ### Appendix
 <!-- Phases: For larger projects, it may be useful to break the plan into phases (e.g., crawl, walk, run). If applicable, detail that plan here. -->
