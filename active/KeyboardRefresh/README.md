@@ -207,6 +207,8 @@ Conversion between many units of measurement.
 #### Functions
 ![Operator Panel](./operatorPanelFunctionsAnnotated.png)
 
+* Graphing mode only has abs, floor, and ceil
+
 #### Inequalities
 ![Operator Panel](./operatorPanelInequalitiesAnnotated.png)
 
