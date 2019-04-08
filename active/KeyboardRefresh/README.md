@@ -23,7 +23,7 @@ Success here is unblocking future feature development and improving overall acce
 
 ### Feature Requirements
 | Priority | Requirement |
-|:--------:|:----------------------------------------------------------------------------|
+|:-:|:-|
 | P1 | Keyboard in Standard mode is updated to new layout and styling |
 | P1 | Keyboard in Scientific mode is updated to new layout and styling |
 | P1 | Keyboard in Programmer mode is updated to new layout and styling |
@@ -33,7 +33,23 @@ Success here is unblocking future feature development and improving overall acce
 | P2 | Keyboard in Graphing Mode added with new layout and styling |
 
 ### Feature Details and High-Fidelity Concept
-<!-- Show a detailed look at the experience. Make sure you cover all possible flows. Include any alternative designs that were considered. Call out if strings being used are proposed or final. Don’t forget about edge and error cases. Keep in mind compliance and other quality considerations. This should take the form of polished design comps and/or screenshots combined with textual descriptions. -->
+#### Standard Mode
+| Before | After |
+|:-|:-|
+|![Standard Calculator Before](./standardBefore.png)|![Standard Calculator After](./standardAfter.png)|
+
+#### Scientific Mode
+| Before | After |
+|:-|:-|
+|![Scientific Calculator Before](./scientificBefore.png)|![Scientific Calculator After](./scientificAfter.png)|
+
+#### Programmer Mode
+| Before | After |
+|:-|:-|
+|![Programmer Calculator Before](./programmerBefore.png)|![Programmer Calculator After](./programmerAfter.png)|
+
+#### Graphing Mode (_new_)
+![Graphing Calculator](./graphingAfter.png)
 
 ### Appendix
 <!-- Phases: For larger projects, it may be useful to break the plan into phases (e.g., crawl, walk, run). If applicable, detail that plan here. -->
