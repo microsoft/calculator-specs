@@ -183,6 +183,34 @@ Conversion between many units of measurement.
 * Like operators are grouped together, when possible
 </details>
 
+<details><summary>Operator Panels</summary>
+
+### Operator Panels
+TODO
+
+</details>
+
+<details><summary>Scaling</summary>
+
+### Scaling
+We are reducing the number of distinct keyboard layout states to _two_.
+
+![Scaling Keyboard](./scaling.png)
+
+* Subtitle (20)/Title (24) font size for buttons/numpad buttons on small (320x320) and medium (640x640) layouts
+* Sub-Header (34)/Header (48) font size for buttons/numpad buttons on large (1080x1080) layouts
+
+</details>
+
+<details><summary>Accessibility</summary>
+
+### Accessibility
+* Add support for X-Y focus navigation when focus is inside of any keyboard area (including overflow panels)
+* Addresses feedback from recent Calculator accessibility review as one of the issues preventing us from achieving an “A” rating
+
+![Keyboard Accessibility](./accessibility.png)
+</details>
+
 ## Appendix
 <!-- Phases: For larger projects, it may be useful to break the plan into phases (e.g., crawl, walk, run). If applicable, detail that plan here. -->
 
