@@ -34,6 +34,7 @@ Success here is unblocking future feature development and improving overall acce
 | P2 | Keyboard in Graphing Mode added with new layout and styling |
 
 ## Feature Details and High-Fidelity Concept
+![Scientific Calculator After](./scientificAfter.png)
 
 _**Note:** Strings and icons below are not final._
 
