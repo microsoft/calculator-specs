@@ -39,6 +39,8 @@ _**Note:** Strings and icons below are not final._
 
 ![needs glyph marker](./needsGlyphKey.png)
 
+<details><summary>Standard Mode</summary><p>
+
 ### Standard Mode
 Standard Calculator functionality which offers basic operations and evaluates commands immediately as they are entered.
 
@@ -61,6 +63,9 @@ Standard Calculator functionality which offers basic operations and evaluates co
 **Black Region - Mode-specific**
 * Space not used by common keyboard components are reserved for mode-specific buttons
 * Like operators are grouped together, when possible
+</p></details>
+
+<details><summary>Scientific Mode</summary><p>
 
 ### Scientific Mode
 Scientific Calculator functionality which offers expanded operations and evaluates commands using order of operations.
@@ -68,7 +73,6 @@ Scientific Calculator functionality which offers expanded operations and evaluat
 |![Scientific Calculator Before](./scientificBefore.png)|![Scientific Calculator After](./scientificAfter.png)|![Scientific Calculator Annotated Changes](./scientificAnnotated.png)|
 |:-:|:-:|:-:|
 | Before | After | Annotated |
-
 
 **Red Region - Shifted Operators**
 * In supported keyboards, 2<sup>nd</sup> bar will always appear here in this grouping
@@ -97,6 +101,9 @@ Scientific Calculator functionality which offers expanded operations and evaluat
 **Black Region - Mode-specific**
 * Space not used by common keyboard components are reserved for mode-specific buttons
 * Like operators are grouped together, when possible
+</p></details>
+
+<details><summary>Programmer Mode</summary><p>
 
 ### Programmer Mode
 Programmer Calculator functionality which offers common mathematical operations for developers including conversion between common bases.
@@ -105,6 +112,9 @@ Programmer Calculator functionality which offers common mathematical operations 
 |:-:|:-:|:-:|
 | Before | After | Annotated |
 
+</p></details>
+
+<details><summary>Converters</summary><p>
 
 ### Converters
 Conversion between many units of measurement.
@@ -113,11 +123,17 @@ Conversion between many units of measurement.
 |:-:|:-:|:-:|
 | Before | After | Annotated |
 
+</p></details>
+
+<details><summary>Graphing Mode</summary><p>
+
 ### Graphing Mode (_new_)
 
 |![Graphing Calculator](./graphingAfter.png)|![Graphing Calculator Annotated Changes](./graphingAnnotated.png)|
 |:-:|:-:|
 | After | Annotated |
+
+</p></details>
 
 ## Appendix
 <!-- Phases: For larger projects, it may be useful to break the plan into phases (e.g., crawl, walk, run). If applicable, detail that plan here. -->
