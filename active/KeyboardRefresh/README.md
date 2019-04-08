@@ -98,6 +98,9 @@ Scientific Calculator functionality which offers expanded operations and evaluat
   * Functions (abs, floor, ceil, rand, dms, deg)
 * See overflow panel section for more details
 
+**Purple Region - New Operators**
+* Add absolute value to scientific calculator
+
 **Black Region - Mode-specific**
 * Space not used by common keyboard components are reserved for mode-specific buttons
 * Like operators are grouped together, when possible
@@ -112,6 +115,28 @@ Programmer Calculator functionality which offers common mathematical operations 
 |:-:|:-:|:-:|
 | Before | After | Annotated |
 
+**Red Region - HEX Values**
+* A-F buttons available for HEX input along left side
+* Use same style as number pad
+
+**Orange Region - Operator Groups**
+* Programmer has following overflow operator groups
+  * Bitwise Operators 
+  * Bit Shifts
+* Adding support for NAND, NOR and XNOR bitwise operators
+* Adding support for logical left/right and rotate through carry circular left/right bit sifts
+* See overflow panel slide for more details
+
+**Yellow Region - Decimal**
+* Decimal key disabled in programmer mode (same as today)
+
+**Purple Region - New Shift Behavior**
+* Adding Left and Right Shift buttons, since those can be done in rapid succession. Option to change shift mode moved to operator group.
+* Indicator will display when non-default shift is active in upper-right corner.
+
+**Black Region - Mode-specific**
+* Space not used by common keyboard components are reserved for mode-specific buttons
+* Like operators are grouped together, when possible
 </details>
 
 <details><summary>Converters</summary>
@@ -123,6 +148,12 @@ Conversion between many units of measurement.
 |:-:|:-:|:-:|
 | Before | After | Annotated |
 
+**Red Region - Sign Button**
+* Sign button should only appear in supported modes and is enabled for all data types that support negative values:
+  * Temperature (sub-zero temperatures; when input is Kelvin, disable sign button)
+  * Power (time-rate of energy, which can be negative)
+  * Angle (negative angles)
+* Decimal Button should be enabled for all conversations (no change)
 </details>
 
 <details><summary>Graphing Mode</summary>
@@ -133,6 +164,23 @@ Conversion between many units of measurement.
 |:-:|:-:|
 | After | Annotated |
 
+**Orange Region - Operator Groups**
+* Graphing has following overflow operator groups
+  * Trig (same as Scientific)
+  * Inequalities (=, <, <=, >, >=)
+  * Functions (floor, ceil, and abs)
+* See overflow panel slide for more details
+
+**Red Region - Variables**
+* X and Y are special variables exposed top-level
+
+**Green Region - Equals and Submit**
+* In graphing mode, the equals button means something else, so the “submit” button is replaced with a submit/enter button to plot the equation in bottom-right corner
+* The “=“ button is exposed top-level (also included in variables operator overflow group)
+
+**Black Region - Mode-specific**
+* Space not used by common keyboard components are reserved for mode-specific buttons
+* Like operators are grouped together, when possible
 </details>
 
 ## Appendix
