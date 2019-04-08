@@ -186,7 +186,12 @@ Conversion between many units of measurement.
 <details><summary>Operator Panels</summary>
 
 ### Operator Panels
-TODO
+![Operator Panel](./operatorPanel.png)
+![Operator Panel](./operatorPanelTrigAnnotated.png)
+![Operator Panel](./operatorPanelFunctionsAnnotated.png)
+![Operator Panel](./operatorPanelInequalitiesAnnotated.png)
+![Operator Panel](./operatorPanelBitwiseAnnotated.png)
+![Operator Panel](./operatorPanelShiftOptions.png)
 
 </details>
 
