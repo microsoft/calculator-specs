@@ -33,6 +33,9 @@ Success here is unblocking future feature development and improving overall acce
 | P2 | Keyboard in Graphing Mode added with new layout and styling |
 
 ### Feature Details and High-Fidelity Concept
+
+_**Note:** Strings and icons below are not final. Icons pending updates are marked with ![needs glyph marker](./needsGlyph.png)_
+
 #### Standard Mode
 | Before | After |
 |:-|:-|
