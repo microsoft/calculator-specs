@@ -40,20 +40,70 @@ _**Note:** Strings and icons below are not final._
 ![needs glyph marker](./needsGlyphKey.png)
 
 ### Standard Mode
+Standard Calculator functionality which offers basic operations and evaluates commands immediately as they are entered.
+
 |![Standard Calculator Before](./standardBefore.png)|![Standard Calculator After](./standardAfter.png)|
 |:-:|:-:|
 | Before | After |
 
 ![Standard Calculator Annotated Changes](./standardAnnotated.png)
 
+**Red Region - Number Pad**
+* Standard number pad across all keyboards
+* Button styling extended to sign and decimal buttons
+
+**Green Region - Operator Pad**
+* Core arithmetic operators always grouped and ordered the same across all keyboards
+* “Submit” button is always bottom-right corner across all keyboards
+* “Submit” button has styling applied to draw user attention
+
+**Yellow Region - Backspace/Clear**
+* Backspace and clear buttons moved to upper-right corner across all keyboards
+
+**Black Region - Mode-specific**
+* Space not used by common keyboard components are reserved for mode-specific buttons
+* Like operators are grouped together, when possible
+
 ### Scientific Mode
+Scientific Calculator functionality which offers expanded operations and evaluates commands using order of operations.
+
 |![Scientific Calculator Before](./scientificBefore.png)|![Scientific Calculator After](./scientificAfter.png)|
 |:-:|:-:|
 | Before | After |
 
 ![Scientific Calculator Annotated Changes](./scientificAnnotated.png)
 
+**Red Region - Shifted Operators**
+* In supported keyboards, 2<sup>nd</sup> bar will always appear here in this grouping
+* Shifted operations have visual treatment applied
+* Shifted operations must either be the inverse operation or a variation of unshifted operator
+* Adding cubes and cubic root buttons
+* Adding 2<sup>x</sup> button
+* Adding log<sup>x</sup>y button
+
+**Yellow Region - Backspace/Clear**
+* Outside of Standard mode, we combine CE and C buttons into one
+* By default, “CE” will appear to allow user to clear everything
+* Once there is input, “C” will appear instead to allow user to clear current input
+
+**Green Region - Parenthesis**
+* In supported keyboards, parenthesis will always appear here in this grouping
+
+**Orange Region - Operator Groups**
+* Modes with rich functionality will utilize a new operator overflow panel for easy access to sets of operators
+* Operator groups are consistent between modes
+* Scientific has following overflow operator groups
+  * Trig (sin, cos, tan, sec, csc, cot, with hyperbolics and inverse variants)
+  * Functions (abs, floor, ceil, rand, dms, deg)
+* See overflow panel section for more details
+
+**Black Region - Mode-specific**
+* Space not used by common keyboard components are reserved for mode-specific buttons
+* Like operators are grouped together, when possible
+
 ### Programmer Mode
+Programmer Calculator functionality which offers common mathematical operations for developers including conversion between common bases.
+
 |![Programmer Calculator Before](./programmerBefore.png)|![Programmer Calculator After](./programmerAfter.png)|
 |:-:|:-:|
 | Before | After |
@@ -61,6 +111,8 @@ _**Note:** Strings and icons below are not final._
 ![Programmer Calculator Annotated Changes](./programmerAnnotated.png)
 
 ### Converters
+Conversion between many units of measurement.
+
 |![Converter Before](./converterBefore.png)|![Converter After](./converterAfter.png)|
 |:-:|:-:|
 | Before | After |
