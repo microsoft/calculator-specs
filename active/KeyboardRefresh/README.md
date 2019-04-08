@@ -27,6 +27,7 @@ Success here is unblocking future feature development and improving overall acce
 | P1 | Keyboard in Standard mode is updated to new layout and styling |
 | P1 | Keyboard in Scientific mode is updated to new layout and styling |
 | P1 | Keyboard in Programmer mode is updated to new layout and styling |
+| P1 | Keyboard in Converters are updated to new layout and styling |
 | P1 | Create new Operator Overflow Panel and operator groupings |
 | P1 | Calculator font updated with new/updated icons to support keyboard changes |
 | P2 | Add support for X-Y focus keyboard navigation using arrow keys |
@@ -50,6 +51,11 @@ _**Note:** Strings and icons below are not final._
 
 #### Programmer Mode
 |![Programmer Calculator Before](./programmerBefore.png)|![Programmer Calculator After](./programmerAfter.png)|
+|:-:|:-:|
+| Before | After |
+
+#### Converters
+|![Converter Before](./converterBefore.png)|![Converter After](./converterAfter.png)|
 |:-:|:-:|
 | Before | After |
 
