@@ -37,19 +37,19 @@ Success here is unblocking future feature development and improving overall acce
 _**Note:** Strings and icons below are not final. Icons pending updates are marked with ![needs glyph marker](./needsGlyph.png)_
 
 #### Standard Mode
-| Before | After |
-|:-|:-|
 |![Standard Calculator Before](./standardBefore.png)|![Standard Calculator After](./standardAfter.png)|
+|:-:|:-:|
+| Before | After |
 
 #### Scientific Mode
-| Before | After |
-|:-|:-|
 |![Scientific Calculator Before](./scientificBefore.png)|![Scientific Calculator After](./scientificAfter.png)|
+|:-:|:-:|
+| Before | After |
 
 #### Programmer Mode
-| Before | After |
-|:-|:-|
 |![Programmer Calculator Before](./programmerBefore.png)|![Programmer Calculator After](./programmerAfter.png)|
+|:-:|:-:|
+| Before | After |
 
 #### Graphing Mode (_new_)
 ![Graphing Calculator](./graphingAfter.png)
