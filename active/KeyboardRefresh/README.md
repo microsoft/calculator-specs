@@ -19,7 +19,7 @@ Update they keyboard app-wide for increased consistency and greater extensibilit
 * Changes to display option buttons are out of scope (e.g., BYTE/WORD mode in programmer calculator), unless the button is better suited to be included in the keyboard
 
 ### Success Criteria
-<!-- How do we measure if things are successful? What’s the metric/KPI to track? Include proposed success metrics here. -->
+Success here is unblocking future feature development and improving overall accessibility.
 
 ### Feature Requirements
 <!-- Specific feature requirements or user scenarios. These typically starts with statements like “User can” or “API supports”. Leave details for next section. -->
