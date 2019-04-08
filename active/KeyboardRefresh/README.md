@@ -1,4 +1,4 @@
-> See comments in Markdown for tips on how to use this spec template
+## Update Calculator keyboard for greater consistency and extensibility
 
 ### Problem Statement
 The Calculator keyboard requires some changes to meet the demands of upcoming features, including graphing mode and always-on-top mode. Furthermore, the current standard keyboard could be better at accommodating scaled screen sizes, which improves overall accessibility of the app. There are a number of other problems this spec seeks to address, including reducing confusion over the up arrow used as the shift key and reducing the number of keyboard layout states.
