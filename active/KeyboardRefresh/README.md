@@ -210,10 +210,3 @@ We are reducing the number of distinct keyboard layout states to _two_.
 
 ![Keyboard Accessibility](./accessibility.png)
 </details>
-
-## Appendix
-<!-- Phases: For larger projects, it may be useful to break the plan into phases (e.g., crawl, walk, run). If applicable, detail that plan here. -->
-
-<!-- Risks and Open Issues: Call out any open issues, if applicable. Waht's left to solve or agree on? -->
-
-<!-- Resources: Include links to any additional documentation or resources, if applicable. -->
