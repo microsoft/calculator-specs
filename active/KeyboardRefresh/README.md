@@ -42,11 +42,9 @@ _**Note:** Strings and icons below are not final._
 ### Standard Mode
 Standard Calculator functionality which offers basic operations and evaluates commands immediately as they are entered.
 
-|![Standard Calculator Before](./standardBefore.png)|![Standard Calculator After](./standardAfter.png)|
-|:-:|:-:|
-| Before | After |
-
-![Standard Calculator Annotated Changes](./standardAnnotated.png)
+|![Standard Calculator Before](./standardBefore.png)|![Standard Calculator After](./standardAfter.png)| ![Standard Calculator Annotated Changes](./standardAnnotated.png)|
+|:-:|:-:|:-:|
+| Before | After | Annotated |
 
 **Red Region - Number Pad**
 * Standard number pad across all keyboards
@@ -67,11 +65,10 @@ Standard Calculator functionality which offers basic operations and evaluates co
 ### Scientific Mode
 Scientific Calculator functionality which offers expanded operations and evaluates commands using order of operations.
 
-|![Scientific Calculator Before](./scientificBefore.png)|![Scientific Calculator After](./scientificAfter.png)|
-|:-:|:-:|
-| Before | After |
+|![Scientific Calculator Before](./scientificBefore.png)|![Scientific Calculator After](./scientificAfter.png)|![Scientific Calculator Annotated Changes](./scientificAnnotated.png)|
+|:-:|:-:|:-:|
+| Before | After | Annotated |
 
-![Scientific Calculator Annotated Changes](./scientificAnnotated.png)
 
 **Red Region - Shifted Operators**
 * In supported keyboards, 2<sup>nd</sup> bar will always appear here in this grouping
@@ -104,25 +101,23 @@ Scientific Calculator functionality which offers expanded operations and evaluat
 ### Programmer Mode
 Programmer Calculator functionality which offers common mathematical operations for developers including conversion between common bases.
 
-|![Programmer Calculator Before](./programmerBefore.png)|![Programmer Calculator After](./programmerAfter.png)|
-|:-:|:-:|
-| Before | After |
+|![Programmer Calculator Before](./programmerBefore.png)|![Programmer Calculator After](./programmerAfter.png)|![Programmer Calculator Annotated Changes](./programmerAnnotated.png)|
+|:-:|:-:|:-:|
+| Before | After | Annotated |
 
-![Programmer Calculator Annotated Changes](./programmerAnnotated.png)
 
 ### Converters
 Conversion between many units of measurement.
 
-|![Converter Before](./converterBefore.png)|![Converter After](./converterAfter.png)|
-|:-:|:-:|
-| Before | After |
-
-![Converter Annotated Changes](./converterAnnotated.png)
+|![Converter Before](./converterBefore.png)|![Converter After](./converterAfter.png)|![Converter Annotated Changes](./converterAnnotated.png)|
+|:-:|:-:|:-:|
+| Before | After | Annotated |
 
 ### Graphing Mode (_new_)
-![Graphing Calculator](./graphingAfter.png)
 
-![Graphing Calculator Annotated Changes](./graphingAnnotated.png)
+|![Graphing Calculator](./graphingAfter.png)|![Graphing Calculator Annotated Changes](./graphingAnnotated.png)|
+|:-:|:-:|
+| After | Annotated |
 
 ## Appendix
 <!-- Phases: For larger projects, it may be useful to break the plan into phases (e.g., crawl, walk, run). If applicable, detail that plan here. -->
