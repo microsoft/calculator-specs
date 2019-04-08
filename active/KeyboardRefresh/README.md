@@ -36,10 +36,6 @@ Success here is unblocking future feature development and improving overall acce
 ## Feature Details and High-Fidelity Concept
 ![Scientific Calculator After](./scientificAfter.png)
 
-_**Note:** Strings and icons below are not final._
-
-![needs glyph marker](./needsGlyphKey.png)
-
 <details><summary>Standard Mode</summary>
 
 ### Standard Mode
@@ -244,3 +240,7 @@ We are reducing the number of distinct keyboard layout states to _two_.
 
 ![Keyboard Accessibility](./accessibility.png)
 </details>
+
+_**Note:** Strings and icons above are not final._
+
+![needs glyph marker](./needsGlyphKey.png)
