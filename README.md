@@ -26,15 +26,18 @@ better! We follow a
 
 ### Workflow
 
-1. Ensure that your pitch has been approved and moved into [planning](https://github.com/Microsoft/calculator/projects/1). When features enter this stage, a new working branch in this repo will be created: `feature/<feature>`
-||||||| parent of dad115c... Cleaning up README and spec template, add PR template
+1. Ensure that your pitch has been approved and moved into
+   [planning](https://github.com/Microsoft/calculator/projects/1). When features enter this stage,
+   a new working branch in this repo will be created: `feature/<feature>`
 
-2. Create a new directory for your spec under the `active` directory: `/active/<feature>`.
+2. Create a new working branch off of that feature branch for your work in progress.  Create a new
+   directory for your spec under the `active` directory: `/active/<feature>`.
 
 3. Write your spec following the [spec template](./spec_template.md), leveraging relative links when
    referencing images or other assets in the directory.  Rename your file as `README.md`.
 
-5. Once all feedback has been addressed and your spec has been merged into `master`, your feature will move into [implementation](https://github.com/Microsoft/calculator/projects/1).
+5. Once all feedback has been addressed and your spec has been merged into `master`, your feature will
+   move into [implementation](https://github.com/Microsoft/calculator/projects/1).
 
 6. After your feature is merged into `master` in the [Calculator](https://github.com/Microsoft/calculator)
    project, you can submit a pull request to move your spec from `active` to `archive`.  (We'll do
