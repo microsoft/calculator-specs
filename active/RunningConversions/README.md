@@ -1,5 +1,3 @@
-> See comments in Markdown for tips on how to use this spec template
-
 ### Problem Statement
 Distance running is a constant interplay between space, time, and pain. Eavesdrop into any discussion between runners, 
 and you’ll be constantly hearing about paces, race times, interval splits, and hitting the wall. Athletes and coaches need 
@@ -41,17 +39,31 @@ With this mode, a user would be able to solve real world problems such as:
 * My training plan shows paces in minutes per kilometer, but I am using minutes per mile, how can I change them using Windows Calculator?
 * What speed do I set the treadmill to for my interval workout? The plan specifies paces.
 * What’s the target pace for 1’15” 400m intervals?
-* If I could run as fast as Eliud Kipchoge when he achieved his latest Marathon world record, what would my 5K time be? (The right answer is “you probably can’t” but the calculator would show 14:24. Wow. I can't think that fast, let alone run.)
+* If I could run as fast as Eliud Kipchoge when he achieved his latest Marathon world record, what would my 5K time be? (The right answer is “you probably can’t” but the calculator would show 14:24. Wow. I can't *think* that fast, let alone run.)
 
-Non-Goals: Calculating race times and paces for non-standard race distances, including ultras.ts, but rather broad goals you are trying to accomplish. -->
+Non-Goals: Calculating race times and paces for other similar sports (such as cycling, race walking, etc.), and non-standard running race distances, including ultras.
 
 ### Success Criteria
 <!-- How do we measure if things are successful? What’s the metric/KPI to track? Include proposed success metrics here. -->
 
 ### Feature Requirements
-<!-- Specific feature requirements or user scenarios. These typically starts with statements like “User can” or “API supports”. Leave details for next section. -->
+The key user stories of the feature are:
+1. Users can switch Windows Calculator to Running conversions mode.
+1. Users can convert between speeds, paces, standard race times, and interval training times.
+1. Users can use mile-based or kilometer-based measurements where applicable, according to their preference.
+1. When converting from a time or pace measurement, users can enter values that include hours, minutes, seconds, and tenths of a second.
+1.  When converting from a speed measurement, users can enter values with decimal digits.
 
 ### Feature Details and High-Fidelity Concept
+
+| Scenario | Feature details |
+| -------- | --------------- |
+| Switching to Running conversion mode | [ModeSwitch.md](./ModeSwitch.md) |
+| Conversion units | [Units.md](./Units.md) |
+| Calculations | [Calculations.md](./Calculations.md) |
+| Coverter UX | [UX.md](./UX.md) |
+| "About equal to" | [SecondaryConversions.md](./SecondaryConversions.md) |
+
 <!-- Show a detailed look at the experience. Make sure you cover all possible flows. Include any alternative designs that were considered. Call out if strings being used are proposed or final. Don’t forget about edge and error cases. Keep in mind compliance and other quality considerations. This should take the form of polished design comps and/or screenshots combined with textual descriptions. -->
 
 ### Appendix
