@@ -13,7 +13,7 @@ We welcome your contributions to the project, and we thank you for your interest
 
 ### Workflow
  
-1. Ensure that your pitch has been approved and moved into [pre-production](https://github.com/Microsoft/calculator/projects/1). When features enter this stage, a new working branch in this repo will be created: `feature/<feature>`
+1. Ensure that your pitch has been approved and moved into [planning](https://github.com/Microsoft/calculator/projects/1). When features enter this stage, a new working branch in this repo will be created: `feature/<feature>`
 
 2. Create a new directory for your spec under the `active` directory: `/active/<feature>`
 
@@ -21,7 +21,7 @@ We welcome your contributions to the project, and we thank you for your interest
 
 4. When your spec is ready for review, open a new pull request to merge your spec into the `master` branch
 
-5. Once all feedback has been addressed and your spec has been merged into `master`, your feature will move into [production](https://github.com/Microsoft/calculator/projects/1).
+5. Once all feedback has been addressed and your spec has been merged into `master`, your feature will move into [implementation](https://github.com/Microsoft/calculator/projects/1).
 
 6. After your feature ships, move your spec from `active` to `archive`
 
