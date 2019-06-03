@@ -5,12 +5,16 @@ of the source and target measures (speed, pace, or time). Converting between pac
 while coverting between speed and pace/time is division based.
 
 For example:
+
     (Race time: 5K) = 3.106855961 * (Pace: Miles per hour)
+
     (Pace: Minutes per kilometer) = 60 / (Speed: Kilometers per hour)
 
 Division based conversions are symmetrical, i.e. if unit Ua and unit Ub have a division based conversion with factor F,
 then:
+
     Ua = F / Ub
+
     Ub = F / Ua
 
 For the 12 measures listed in [Units](./Units.md), setting up a full configuration matrix would require a minimum of
