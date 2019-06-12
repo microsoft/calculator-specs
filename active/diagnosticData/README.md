@@ -28,13 +28,11 @@ All events in below table are tagged:
 |---------------|--------|-------------|
 | ModernAppLaunch <br> ModernAppResume <br>ModernAppResize | Standard app lifecycle trace logger | **AumId** <br> **PackageFullName** <br> **PsmKey**<br> |
 
-<br>
 ### Errors/Failure
 | Event Name | Description | Fields |
 |------------|--------|-------------|
 | Exception  | Logs information about non-fatal errors | **CalcMode:** The Calculator mode <br> **ExceptionMessage:** Message returned by error <br> **FunctionName:** The name of the function logging the exception <br> **HResults:** The error code<br> |
 
-<br>
 ### Feature Usage
 All events in below table are tagged:
 
