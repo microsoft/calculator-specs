@@ -29,32 +29,81 @@ Empower students to learn mathematics by improving conceptual understanding and 
 * Parity with more advanced graphing solutions 
 
 ## Success Criteria
-<!-- How do we measure if things are successful? What’s the metric/KPI to track? Include proposed success metrics here. -->
+Success with the graphing calculator can be measured by monthly active users, engagement time, and retention.
 
-## Feature Requirements
-Below are the 9 core task that a user must be able to complete. We will leverage these core task to evaluate the design of the components. 
+## Overview
+The specification is divided up into three sections:
+1. Key graphing calculator scenarios
+2. Feature requirements as highlighted by the key user scenarios
+3. Specifics about information architecture and components that enable the key graphing scenarios
 
-1. Users can enter an equation so that it can be viewed on the graph.
-2. Users can enter multiple equations so that they can compare plots against each other and see the interactions between the lines.
-3. Users can edit equations so that they can see how changes affect the plot and correct mistakes.
-4. Users can change the graph viewing window so that they can see different parts of the plot at different levels of detail.
-5. Users can change line visual options so that they can clearly differentiate between multiple plots.
-6. Users can export graphs so that they can share it with others or incorporate into Office/Teams.
-7. Users can easily manipulate secondary variables in equations so that they can quickly understand how changes to equations affect the graph.
-8. Users can see traceable key graph features (KGF) as nodes/dots on the equations, and summon other KGFs in a list so that they can better understand the important features of a given function.
-9. Users can trace plots so that they can better understand the relationship between variables in the equation on the graph.
+In order to set context on the feature requirements and components needed for the graphing calculator, a set of 11 key user scenarios were established. The golden path for each scenario will be described within the specification. With the key user scenarios establish, requirements for each component and graphing calculator were extracted and documented.
+
+Windows calculator is built on top of the [Windows Fluent design system](https://www.microsoft.com/design/fluent/#/windows) leveraging the style, design patterns and controls. With the graphing calculator feature, the common controls within the Windows Fluent design system was not enough. We extended the design system, by creating specific components for the graphing calculator including the equation input and graph area. We stressed test the components using the key scenarios. By establishing a set of common controls, we enable the community to extend the graphing calculator and enable new user scenarios. 
+
+### Scenarios
+11 user scenarios were established and prioritized based on the core task that students and teachers need to complete within a classroom setting. Each scenario helped align and inform the feature requirements for each of the areas of the graphing calculator. The golden path of each key scenario will be described through a series of storyboards.
+
+| Order | Scenario | Component Area(s) |
+|:------:|:----------|:-------------------|
+| 1 | User can enter an equation so that they can see the graphed plot. | Graphing area, Equation area, Keyboard area |
+| 2 | User can enter multiple equations so that they can compare plots against each other and see the interactions between the lines. | Equation area, Keyboard area |
+| 3 | User can edit an equation so that they can see how changes affect the plot and correct mistakes. | Equation area |
+| 4 | User can change the graph viewing window so that they can see different parts of the plot at different levels of detail. | Settings area |
+| 5 | User can export a graph so that they can share it with others or incorporate into Office/Teams. | Graphing area |
+| 6 | User can analyze equations for common features and summon key graph features in a list so that they can better understand the important features of a given function. | Equation area |
+| 7 | User can easily manipulate secondary variables in equations so that they can quickly understand how changes to equations affect the graph.  | Equation area |
+| 8 | User can change graph visuals so that they can clearly differentiate between multiple plots. | Settings area |
+| 9 | User can trace plots with a mouse or gesture so that they can better understand the relationship between variables in the equation on the graph. | Graphing area |
+| 10 | User can use their keyboard to activate a crosshair so that they can better understand the relationship between variables in the equation on the graph. | Graphing area |
+| 11 | User can see traceable key graph features as nodes/dots on the equations so that they can better understand the important features of a given function. | Graphing area |
+| Future | User can enter a set of points so that they can see the multiple points graphed. | Graphing area, Equation area, Keyboard area |
+| Future | User can bound their equations so that they can create step funtions. | Equation area |
 
 ## Feature Details and High-Fidelity Concept
-The graphing mode is split into four main components: (1) Graphing Area, (2) Keyboard, (3) Equation Input Area, and (4) Settings.
+Graphing calculator can be split into four main components: (1) Graphing Area, (2) Keyboard, (3) Equation Input Area, and (4) Settings. Leveraging the [US common core standards](http://www.corestandards.org/Math/), and the key user scenarios we were able to start defining the requirements needed for each of these components.
 
 ### Graphing Area
+| # | Requirement | Notes |
+|---|:-------------|:-------|
+| 1 | User can change the viewing window by dragging and zooming the graphing area | Leveraging touch and mouse, a user can change the zoom level |
+| 2 | User can zoom the viewing window via onscreen buttons | Keyboard accessibility support |
+| 3 | User can reset the viewing window to "best fit" via onscreen buttons |  |
+| 4 | User can export the graph to other applications |  |
+| 5 | User can save the graph as an image | Default file name should be prefixed with "graph". Should support .png, .jpg, .jpeg, and .svg. |
+| 6 | The x and y intercepts are highlighted on the graph |  |
+
 See more details about the graphing area component [here](./GraphingArea.md).
 
 ### Keyboard 
+| # | Requirement | Notes |
+|---|:-------------|:-------|
+| 1 | User can input numerals and symbols for supported equation types via the keyboard |  |
+| 2 | Users can both submit equations and leverage the '=' symbol in equations | The equals button in other calculator modes is submit. Graphing mode needs to distinguish the two. |
+| 3 | Users can input _x_ and _y_ variables. |  |
+
 See more details about the keyboard component [here](./Keyboard.md).
 
 ### Equation Input Area
+| # | Requirement | Notes |
+|---|:-------------|:-------|
+| 1 | User can enter an equation with 1 or 2 variables (x, y) | An equation is an expression through an equality (e.g., =) between the two algebraic quantities or a set of quantity. We will officially support the following equation types: linear, quadratic, polynomial, trigonometric, radical, exponential, inequality, and conics/circles. |
+| 2 | Equations are displayed in rich MathML styling format |  |
+| 3 | Users can input their equations with freeform input |  |
+| 4 | User can toggle the visibility of an equation |  |
+| 5 | Users can change the color and style of equation lines |  |
+| 6 | Users can manipulate a variable within an equation to see the effect it has on the graph |  |
+
 See more details about the equation input area [here](./EquationInputArea.md).
 
 ### Settings
+| # | Requirement | Notes |
+|---|:-------------|:-------|
+| 1 | Users can change the min and max x/y values for the graph window. | Users  should be able to input a specific value of the min and max. |
+| 2 | Users can switch between operating in degrees and radians. |  |
+
 See more details about settings [here](./Settings.md).
+
+### Layout
+
+Windows Calculator is desgined to be responsive to window size changes. As such, we must support both large and small window sizes. Due to the complexity of graphing equations, we are optimizing for larger windows layouts, but graphing calcualtor should work great for smaller sized windows as well. See more details about layout [here](./Layout.md).
