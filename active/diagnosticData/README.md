@@ -14,12 +14,10 @@ To make decisions about what user experiences to focus on, we need to understand
 ## Proposal
 Removing legacy diagnostics that we do not anticipate needing for upcoming planning. Update the diagnostic events being logged. Create new clean diagnostic schema to support the goals.
 
-<br>
 ## Feature Details
 ### Event Logging
 _Note: As mentioned in Microsoft’s Privacy Statement https://privacy.microsoft.com/en-US/privacystatement#maindiagnosticsmodule, sampling is involved in Microsoft’s diagnostic data collection process.  The keywords that are associated to event definitions provide additional input into how frequently an event might be sampled. Lower level events may be sampled more frequently than higher level events._
 
-<br>
 ### Performance
 All events in below table are tagged:
 
