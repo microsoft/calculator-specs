@@ -10,7 +10,7 @@ Update this to reference the approved feature pitch, as that is where ongoing di
 
 ### Problem Statement
 <!--
-What problem are we trying to solve? Who’s the target audience? Is there a customer need or pain
+What problem are we trying to solve? Who"s the target audience? Is there a customer need or pain
 point we need to remedy? Is there a business goal or metric we are trying to improve? Do we have a
 hypothesis we want to prove or disprove?
 -->
@@ -25,7 +25,7 @@ user research, market or competitive research.
 ### Proposal
 <!--
 How will the solution/feature help us solve the problem?
-How will it meet the target audience’s needs? If there are business goals or metrics,
+How will it meet the target audience"s needs? If there are business goals or metrics,
 how does this improve them?
 -->
 
@@ -44,13 +44,13 @@ but rather broad goals you are trying to accomplish. -->
 ### Success Criteria
 <!--
 How do we measure if things are successful?
-What’s the metric/KPI to track? Include proposed success metrics here.
+What"s the metric/KPI to track? Include proposed success metrics here.
 -->
 
 ### Feature Requirements
 <!--
 Specific feature requirements or user scenarios.
-These typically starts with statements like “User can” or “API supports”.
+These typically starts with statements like "User can" or "API supports".
 Leave details for next section.
 -->
 
@@ -58,7 +58,7 @@ Leave details for next section.
 <!--
 Show a detailed look at the experience. Make sure you cover all possible flows.
 Include any alternative designs that were considered. Call out if strings being used are proposed
-or final. Don’t forget about edge and error cases. Keep in mind compliance and other quality
+or final. Don't forget about edge and error cases. Keep in mind compliance and other quality
 considerations. This should take the form of polished design comps and/or screenshots combined
 with textual descriptions.
 -->
