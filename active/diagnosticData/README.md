@@ -1,5 +1,4 @@
 # Calculator Diagnostic Data Spec
-<br><br>
 
 ## Goals
 To make decisions about what user experiences to focus on, we need to understand which parts of calculator are used most often and whether they're working correctly. We want to update the app-specific diagnostic information Calculator is collecting to answer questions like these:
@@ -12,7 +11,6 @@ To make decisions about what user experiences to focus on, we need to understand
   6. Does Calculator need to support multi-instance? 
   7. Where is the product non-fatally failing (error/exception)?
 
-<br>
 ## Proposal
 Removing legacy diagnostics that we do not anticipate needing for upcoming planning. Update the diagnostic events being logged. Create new clean diagnostic schema to support the goals.
 
