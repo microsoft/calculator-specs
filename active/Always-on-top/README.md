@@ -1,10 +1,10 @@
 # Calculator Always-on-top
 
 ## Problem Statment
-When attempting to use Calculator with another application, such as a spreadsheet, when you click on the other app (e.g. scroll, copy) Calculator goes to back and gets lost. Users want Calculator to stick on top of other apps to facilitate ongoing use with other apps. Alt-tab is driving them bonkers.
+When attempting to use Calculator with another application, such as a spreadsheet, clicking on the other app (e.g. scroll, copy) moves Calculator to the background. Users want Calculator to stay on top of other apps to facilitate ongoing use with other apps. Alt-tab allows them to quickly bring Calculator back to the foreground, but their flow is interrupted.
 
 ## Evidence or User Insights
-Our second-highest customer request is for an always-on-top mode. This is a substantial feature gap, and people complain about having to pay for an app which is sticky because the OS version won’t do it.
+Having an always-on-top mode is the second highest (2670) customer request we have received. Without it is a substantial feature gap, and people complain about having to pay for an app which is sticky because the OS version won’t do it.
 
 2670 requests on Feedback Hub.
 
@@ -12,8 +12,8 @@ Our second-highest customer request is for an always-on-top mode. This is a subs
 Create an “always-on-top” mode for Calculator. This requires making a compact view of the app for the picture-in-picture mode which supports this implementation.
 
 ## Goals
-- Customer can easily switch into an always-on-top mode
-- Customer can easily continue with other tasks while using always-on-top mode
+- Customer can easily switch to the always-on-top mode
+- Customer can easily continue with other tasks while using Calculator always-on-top mode
 - Customer can always and easily view/input into essential Calculator functions when using compact view
 - Customer can easily switch back to the app’s full windowed mode when leaving always-on-top mode
 
@@ -37,7 +37,7 @@ Only standard calculator is supported in the always-on-top mode. The following e
 - Memory
 - MC, MR, M+ M-, MS, M(with a down arrow)
 
-The previous typed keys are shown in the primary number text area in the always-on-top mode. E.G. The user typed 6 + 9 and then =. Before = is pressed, 6 + 9 are shown in the primary text area. If the characters don’t fit in the width of the window, they get pushed out of the view on the left side and an arrow is shown on the left side of the primary number text area. The user can press the arrow to scroll the characters (the scrolling behavior is the same as that of the secondary text area in the normal mode).
+The previously typed keys are shown in the primary number text area in the always-on-top mode. E.G. The user typed 6 + 9 and then =. Before = is pressed, 6 + 9 are shown in the primary text area. If the numbers don’t fit in the width of the window, they get pushed out of the view on the left side and an arrow is shown on the left side of the primary number text area. The user can press the arrow to scroll the numbers (the scrolling behavior is the same as that of the secondary text area in the normal mode).
 
 ![Figure 1 - Default size](./imgs/figure_1.png)
 > Figure 1 - Default size
@@ -64,9 +64,9 @@ If the user resizes the always-on-top window, the user configured size is saved 
 Window snapping is disabled in the always-on-top mode.
 
 ### Enter Always-on-top mode
-Clicking the always-on-top button ![Enter Always-on-Top icon](./imgs/enter_AoT_icon.png)  in the UI enables the always-on-top mode and places the always-on-top mode window at the upper right corner (position managed by the Compact Overlay mode API) of the screen. If another app is already in Compact overlay mode, Calculator always-on-top window is stacked on top of the other window and offset to the lower left direction to ensure that the first window is still partially visible. (Compact Overlay mode API manages the positioning of the windows).
+Clicking the always-on-top button ![Enter Always-on-Top icon](./imgs/enter_AoT_icon.png)  in the UI enables the always-on-top mode and places the always-on-top mode window at the upper right corner (position managed by the Compact Overlay mode API) of the screen. If another app is already in Compact overlay mode, Calculator always-on-top window is stacked on top of the other window and offset to the lower left direction to ensure that the first window is still partially visible (Compact Overlay mode API manages the positioning of the windows).
 
-A tool tip (“Always-on-top”) is shown, when mouse is hovered over the always-on-top mode button.
+A tool tip (“Always-on-top”) is shown when mouse is hovered over the always-on-top mode button.
 
 
 ### Exit Always-on-top mode
@@ -74,7 +74,7 @@ Clicking the Exit always-on-top mode button  ![Exit Always-on-Top icon](./imgs/e
 
 When Calculator is closed from the always-on-top mode, opening it again launches it in the normal mode and positions the app window at the last position the normal mode is at.
 
-A tool tip (“Exit always-on-top”) is shown, when mouse is hovered over the exit always-on-top mode button.
+A tool tip (“Exit always-on-top”) is shown when mouse is hovered over the exit always-on-top mode button.
 
 
 ## Usage metrics
