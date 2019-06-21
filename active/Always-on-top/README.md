@@ -43,10 +43,10 @@ The previous typed keys are shown in the primary number text area in the always-
 > Figure 1 - Default size
 
 ![Figure 2 - Default size (left scroll arrow shown)](./imgs/figure_2.png)
-Figure 2 - Default size (left scroll arrow shown)
+> Figure 2 - Default size (left scroll arrow shown)
 
 ![Figure 3 - Default size (right scroll arrow shown)](./imgs/figure_3.png)
-Figure 3 - Default size (right scroll arrow shown)
+> Figure 3 - Default size (right scroll arrow shown)
 
 ### Window sizes & management
 Window resizing is enabled in the always-on-top mode. The default window size for the always-on-top mode is 320 x 394 epx. The minimum size of the window is 150 x 150 epx. The maximum size is 500 x 500 epx or half of the screen height depending on which is smaller.
@@ -54,10 +54,10 @@ Window resizing is enabled in the always-on-top mode. The default window size fo
 When the user shrinks the window down from the default size, the %, √, x ², 1/x keys are removed.
 
 ![Figure 4 - Min-size (150x150 epx)](./imgs/figure_4.png)
-Figure 4 - Min-size (150x150 epx)
+> Figure 4 - Min-size (150x150 epx)
 
 ![Figure 5 - Min-size (150x150 epx)](./imgs/figure_5.png)
-Figure 5 - Max-size (500 x 500 epx)
+> Figure 5 - Max-size (500 x 500 epx)
 
 If the user resizes the always-on-top window, the user configured size is saved and used as the default size the next time user enters the always-on-top mode (both in the same session and in new sessions).
 
