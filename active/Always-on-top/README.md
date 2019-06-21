@@ -40,8 +40,7 @@ Only standard calculator is supported in the always-on-top mode. The following e
 The previous typed keys are shown in the primary number text area in the always-on-top mode. E.G. The user typed 6 + 9 and then =. Before = is pressed, 6 + 9 are shown in the primary text area. If the characters don’t fit in the width of the window, they get pushed out of the view on the left side and an arrow is shown on the left side of the primary number text area. The user can press the arrow to scroll the characters (the scrolling behavior is the same as that of the secondary text area in the normal mode).
 
 ![Figure 1 - Default size](./imgs/figure_1.png)
-
-Figure 1 - Default size
+  Figure 1 - Default size
 
 ![Figure 2 - Default size (left scroll arrow shown)](./imgs/figure_2.png)
 Figure 2 - Default size (left scroll arrow shown)
