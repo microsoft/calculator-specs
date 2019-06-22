@@ -8,11 +8,9 @@ STOP!!!
 3. Make sure you've renamed your spec file to README.md, and that it's within a new subfolder under "active/".
 -->
 
-## YOUR FEATURE TITLE
-<!-- Update with your feature title -->
+### [UPDATE YOUR FEATURE TITLE HERE]
 
-### Feature Pitch Link
-Microsoft/calculator#<featurePitchIssueNumber>
+**Feature Pitch Link:** Microsoft/calculator#<featurePitchIssueNumber>
 <!--
 Change <featurePitchIssueNumber> to be the actual number of the Issue tracking the feature pitch in the Calculator repo.
 -->
