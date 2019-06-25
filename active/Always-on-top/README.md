@@ -68,6 +68,8 @@ Clicking the always-on-top button ![Enter Always-on-Top icon](./imgs/enter_AoT_i
 
 A tool tip (“Always-on-top”) is shown when mouse is hovered over the always-on-top mode button.
 
+![Figure 6 - Always-on-top entry point](./imgs/figure_6.png)
+> Figure 6 - Always-on-top entry point
 
 ### Exit Always-on-top mode
 Clicking the Exit always-on-top mode button  ![Exit Always-on-Top icon](./imgs/exit_AoT_icon.png)in the always-on-top mode exists the mode and restores the Calculator normal mode window at its last position before always-on-top mode is enabled.
