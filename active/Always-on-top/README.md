@@ -6,8 +6,6 @@ When attempting to use Calculator with another application, such as a spreadshee
 ## Evidence or User Insights
 Having an always-on-top mode is the second highest (2670) customer request we have received. Without it is a substantial feature gap, and people complain about having to pay for an app which is sticky because the OS version won’t do it.
 
-2670 requests on Feedback Hub.
-
 ## Proposal
 Create an “always-on-top” mode for Calculator. This requires making a compact view of the app for the picture-in-picture mode which supports this implementation.
 
@@ -45,19 +43,22 @@ The previously typed keys are shown in the primary number text area in the alway
 ![Figure 2 - Default size (left scroll arrow shown)](./imgs/figure_2.png)
 > Figure 2 - Default size (left scroll arrow shown)
 
-![Figure 3 - Default size (right scroll arrow shown)](./imgs/figure_3.png)
-> Figure 3 - Default size (right scroll arrow shown)
+![Figure 3 - Hover over the chevron arrow](./imgs/figure_3.png)
+> Figure 3 - Hover over the chevron arrow
+
+![Figure 4 - Default size (right scroll arrow shown)](./imgs/figure_4.png)
+> Figure 4 - Default size (right scroll arrow shown)
 
 ### Window sizes & management
 Window resizing is enabled in the always-on-top mode. The default window size for the always-on-top mode is 320 x 394 epx. The minimum size of the window is 150 x 150 epx. The maximum size is 500 x 500 epx or half of the screen height depending on which is smaller.
 
 When the user shrinks the window down from the default size, the %, √, x ², 1/x keys are removed.
 
-![Figure 4 - Min-size (150x150 epx)](./imgs/figure_4.png)
-> Figure 4 - Min-size (150x150 epx)
-
 ![Figure 5 - Min-size (150x150 epx)](./imgs/figure_5.png)
-> Figure 5 - Max-size (500 x 500 epx)
+> Figure 5 - Min-size (150x150 epx)
+
+![Figure 6 - Min-size (150x150 epx)](./imgs/figure_6.png)
+> Figure 6 - Max-size (500 x 500 epx)
 
 If the user resizes the always-on-top window, the user configured size is saved and used as the default size the next time user enters the always-on-top mode (both in the same session and in new sessions).
 
@@ -68,11 +69,12 @@ Clicking the always-on-top button ![Enter Always-on-Top icon](./imgs/enter_AoT_i
 
 A tool tip (“Always-on-top”) is shown when mouse is hovered over the always-on-top mode button.
 
-![Figure 6 - Always-on-top entry point](./imgs/figure_6.png)
-> Figure 6 - Always-on-top entry point
+![Figure 7 - Always-on-top entry point](./imgs/figure_7.png)
+> Figure 7 - Always-on-top entry point
+
 
 ### Exit Always-on-top mode
-Clicking the Exit always-on-top mode button  ![Exit Always-on-Top icon](./imgs/exit_AoT_icon.png)in the always-on-top mode exists the mode and restores the Calculator normal mode window at its last position before always-on-top mode is enabled.
+Clicking the Exit always-on-top mode button  ![Exit Always-on-Top icon](./imgs/exit_AoT_icon.png)in the always-on-top mode exits the mode and restores the Calculator normal mode window at its last position before always-on-top mode is enabled.
 
 When Calculator is closed from the always-on-top mode, opening it again launches it in the normal mode and positions the app window at the last position the normal mode is at.
 
