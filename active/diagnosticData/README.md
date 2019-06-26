@@ -43,7 +43,7 @@ All events in below table are tagged:
 |------------|--------|-------------|
 | NavigationViewOpened | Logged when the user opens the hamburger menu | |
 | ModeChanged | Logged when the user changes the calculator mode | **CalcMode:** The Calculator mode | 
-| KeyboardOperatorUsageInSession | Logged when function button or toggle button is clicked | **CalcMode:** The Calculator mode <br> **ButtonId:** Id of the button<br> **ButtonName:** Name of button<br> **ViewModeId:** Portrait or landscape view <br> **UsageCount:** Number of times the button has been invoked in the session |
+| ButtonUsageInSession | Logged when function button or toggle button is clicked | **CalcMode:** The Calculator mode <br> **ButtonId:** Id of the button<br> **ButtonName:** Name of button<br> **ViewModeId:** Portrait or landscape view <br> **UsageCount:** Number of times the button has been invoked in the session |
 | DateCalculationModeUsed | Logged when DateCalculation fields are changed  | **CalcMode:** The Calculator mode <br> **CalculationType:** Logs which type of calculation was used |
 | HistoryItemLoad | Logged when history item is clicked | **CalcMode:** The Calculator mode<br> **HistoryListSize:** The total number of history items<br> **HistoryItemIndex:** The index of the invoked history item |
 | VisualStateChanged | Logged when the user changes the visual state of the window via resizing | **CalcMode:** The Calculator mode<br> **VisualState:** The new visual state |
