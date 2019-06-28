@@ -49,6 +49,28 @@ The previously typed keys are shown in the primary number text area in the alway
 ![Figure 4 - Default size (right scroll arrow shown)](./imgs/figure_4.png)
 > Figure 4 - Default size (right scroll arrow shown)
 
+### Disabled keyboard shortcuts
+All keyboard shortcuts for the mode other than standard are disabled in the always-on-top mode. The table below lists the standard keyboard shortcuts that are supported in the always-on-top mode.
+
+> Note: The keyboard shortcuts only supported in the regular and max-size layouts are called out in the table.
+
+| Shortcut | Action |
+|----------|-------------|
+| % | Select % (only supported in regular and max size layouts) |
+| @ | Calculate the square root (only supported in regular and max size layouts) |
+| q | Select x2 (only supported in regular and max size layouts) |
+| r | Select 1/X (only supported in regular and max size layouts) |
+| Esc | Clear all input (select C) |
+| Delete | Clear current input (select CE) |
+| Backspace | Delete last character |
+| / | Divide |
+| * | Multiply |
+| - | Subtract |
+| + | Add |
+| F9 | Select ± |
+| . | Decimal point |
+| Enter | Equal |
+
 ### Window sizes & management
 Window resizing is enabled in the always-on-top mode. The default window size for the always-on-top mode is 320 x 394 epx. The minimum size of the window is 150 x 150 epx. The maximum size is 500 x 500 epx or half of the screen height depending on which is smaller.
 
@@ -65,7 +87,7 @@ If the user resizes the always-on-top window, the user configured size is saved 
 Window snapping is disabled in the always-on-top mode.
 
 ### Enter Always-on-top mode
-Clicking the always-on-top button ![Enter Always-on-Top icon](./imgs/enter_AoT_icon.png)  in the UI enables the always-on-top mode and places the always-on-top mode window at the upper right corner (position managed by the Compact Overlay mode API) of the screen. If another app is already in Compact overlay mode, Calculator always-on-top window is stacked on top of the other window and offset to the lower left direction to ensure that the first window is still partially visible (Compact Overlay mode API manages the positioning of the windows).
+Always-on-top button only shows in the standard mode. Clicking the always-on-top button ![Enter Always-on-Top icon](./imgs/enter_AoT_icon.png)  in the UI enables the always-on-top mode and places the always-on-top mode window at the upper right corner (position managed by the Compact Overlay mode API) of the screen. If another app is already in Compact overlay mode, Calculator always-on-top window is stacked on top of the other window and offset to the lower left direction to ensure that the first window is still partially visible (Compact Overlay mode API manages the positioning of the windows).
 
 A tool tip (“Always-on-top”) is shown when mouse is hovered over the always-on-top mode button.
 
