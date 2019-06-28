@@ -49,7 +49,7 @@ The previously typed keys are shown in the primary number text area in the alway
 ![Figure 4 - Default size (right scroll arrow shown)](./imgs/figure_4.png)
 > Figure 4 - Default size (right scroll arrow shown)
 
-### Disabled keyboard shortcuts
+### Keyboard shortcuts
 All keyboard shortcuts for the mode other than standard are disabled in the always-on-top mode. The table below lists the standard keyboard shortcuts that are supported in the always-on-top mode.
 
 > Note: The keyboard shortcuts only supported in the regular and max-size layouts are called out in the table.
