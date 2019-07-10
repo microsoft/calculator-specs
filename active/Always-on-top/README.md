@@ -56,10 +56,10 @@ All keyboard shortcuts for the mode other than standard are disabled in the alwa
 
 | Shortcut | Action |
 |----------|-------------|
-| % | Select % (only supported in regular and max size layouts) |
-| @ | Calculate the square root (only supported in regular and max size layouts) |
-| q | Select x2 (only supported in regular and max size layouts) |
-| r | Select 1/X (only supported in regular and max size layouts) |
+| % | Select % |
+| @ | Calculate the square root |
+| q | Select x2 |
+| r | Select 1/X |
 | Esc | Clear all input (select C) |
 | Delete | Clear current input (select CE) |
 | Backspace | Delete last character |
