@@ -31,7 +31,7 @@ All events in below table are tagged:
 ### Errors/Failure
 | Event Name | Description | Fields |
 |------------|--------|-------------|
-| Exception  | Logs information about non-fatal errors | **CalcMode:** The Calculator mode <br> **ExceptionMessage:** Message returned by error <br> **FunctionName:** The name of the function logging the exception <br> **HResults:** The error code<br> |
+| Exception  | Logs information about non-fatal errors | **CalcMode:** The Calculator mode <br> **Message:** Message returned by error <br> **FunctionName:** The name of the function logging the exception <br> **HResults:** The error code<br> **SessionGUID** |
 
 ### Feature Usage
 All events in below table are tagged:
@@ -41,11 +41,12 @@ All events in below table are tagged:
 
 | Event Name | Description | Fields |
 |------------|--------|-------------|
-| NavigationViewOpened | Logged when the user opens the hamburger menu | |
-| ModeChanged | Logged when the user changes the calculator mode | **CalcMode:** The Calculator mode | 
-| ButtonUsageInSession | Logged when function button or toggle button is clicked | **CalcMode:** The Calculator mode <br> **ButtonId:** Id of the button<br> **ButtonName:** Name of button<br> **ViewModeId:** Portrait or landscape view <br> **UsageCount:** Number of times the button has been invoked in the session |
-| DateCalculationModeUsed | Logged when DateCalculation fields are changed  | **CalcMode:** The Calculator mode <br> **CalculationType:** Logs which type of calculation was used |
-| HistoryItemLoad | Logged when history item is clicked | **CalcMode:** The Calculator mode<br> **HistoryListSize:** The total number of history items<br> **HistoryItemIndex:** The index of the invoked history item |
-| VisualStateChanged | Logged when the user changes the visual state of the window via resizing | **CalcMode:** The Calculator mode<br> **VisualState:** The new visual state |
-| MemoryItemLoad | Logged when a memory item is clicked | **CalcMode:** The Calculator mode<br> **MemoryListSize:** The total number of memory items<br> **MemoryItemIndex:** The index of the invoked memory item|
-| WindowCreated | Logged when the user instantiates multiple instance of the window | **CalcMode:** The Calculator Mode<br> **NumOfOpenWindows:** The number of open windows |
+| NavigationViewOpened | Logged when the user opens the hamburger menu | **SessionGUID** |
+| ModeChanged | Logged when the user changes the calculator mode | **CalcMode:** The Calculator mode <br> **SessionGUID** | 
+| ButtonUsageInSession | Logged when function button or toggle button is clicked | **ButtonUsage:** A string that contains ButtonName, CalcMode, and UsageCount info  <br> - **ButtonName:** Name of button<br> - **CalcMode:** The Calculator mode <br> - **UsageCount:** Number of times the button has been invoked in the session <br> **SessionGUID** |
+| DateCalculationModeUsed | Logged when DateCalculation fields are changed  | **CalcMode:** The Calculator mode <br> **CalculationType:** Logs which type of calculation was used <br> **SessionGUID** |
+| ConverterInputReceived | Logged when any button is pressed in the currency converter  | **CalcMode:** The Calculator mode <br> **SessionGUID** |
+| HistoryItemLoad | Logged when history item is clicked | **CalcMode:** The Calculator mode<br> **HistoryListSize:** The total number of history items<br> **HistoryItemIndex:** The index of the invoked history item <br> **SessionGUID** |
+| VisualStateChanged | Logged when the user changes the visual state of the window via resizing | **CalcMode:** The Calculator mode<br> **VisualState:** The new visual state <br> **SessionGUID**  |
+| MemoryItemLoad | Logged when a memory item is clicked | **CalcMode:** The Calculator mode<br> **MemoryListSize:** The total number of memory items<br> **MemoryItemIndex:** The index of the invoked memory item <br> **SessionGUID** |
+| WindowCreated | Logged when the user instantiates multiple instance of the window | **CalcMode:** The Calculator Mode<br> **NumOfOpenWindows:** The number of open windows <br> **SessionGUID** |
