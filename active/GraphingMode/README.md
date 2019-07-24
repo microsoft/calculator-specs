@@ -49,19 +49,19 @@ Windows calculator is built on top of the [Windows Fluent design system](https:/
 | 1 | User can enter an equation so that they can see the graphed plot. | Graphing area, Equation area, Keyboard area |
 | 2 | User can enter multiple equations so that they can compare plots against each other and see the interactions between the lines. | Equation area, Keyboard area |
 | 3 | User can edit an equation so that they can see how changes affect the plot and correct mistakes. | Equation area |
-| 4 | User can change the graph viewing window so that they can see different parts of the plot at different levels of detail. | Settings area |
+| 4 | User can change the graph viewing window so that they can see different parts of the plot at different levels of detail. | Graphing area |
 | 5 | User can export a graph so that they can share it with others or incorporate into Office/Teams. | Graphing area |
 | 6 | User can analyze equations for common features and summon key graph features in a list so that they can better understand the important features of a given function. | Equation area |
 | 7 | User can easily manipulate secondary variables in equations so that they can quickly understand how changes to equations affect the graph.  | Equation area |
-| 8 | User can change graph visuals so that they can clearly differentiate between multiple plots. | Settings area |
+| 8 | User can change graph visuals so that they can clearly differentiate between multiple plots. | Graphing area |
 | 9 | User can trace plots with a mouse or gesture so that they can better understand the relationship between variables in the equation on the graph. | Graphing area |
 | 10 | User can use their keyboard to activate a crosshair so that they can better understand the relationship between variables in the equation on the graph. | Graphing area |
 | 11 | User can see traceable key graph features as nodes/dots on the equations so that they can better understand the important features of a given function. | Graphing area |
 | Future | User can enter a set of points so that they can see the multiple points graphed. | Graphing area, Equation area, Keyboard area |
-| Future | User can bound their equations so that they can create step funtions. | Equation area |
+| Future | User can bound their equations so that they can create step functions. | Equation area |
 
 ## Feature Details and High-Fidelity Concept
-Graphing calculator can be split into four main components: (1) Graphing Area, (2) Keyboard, (3) Equation Input Area, and (4) Settings. Leveraging the [US common core standards](http://www.corestandards.org/Math/), and the key user scenarios we were able to start defining the requirements needed for each of these components.
+Graphing calculator can be split into four main components: (1) Graphing Area, (2) Keyboard, and (3) Equation Input Area. Leveraging the [US common core standards](http://www.corestandards.org/Math/), and the key user scenarios we were able to start defining the requirements needed for each of these components.
 
 ### Graphing Area
 | # | Requirement | Notes |
@@ -71,7 +71,9 @@ Graphing calculator can be split into four main components: (1) Graphing Area, (
 | 3 | User can reset the viewing window to "best fit" via onscreen buttons |  |
 | 4 | User can export the graph to other applications |  |
 | 5 | User can save the graph as an image | Default file name should be prefixed with "graph". Should support .png, .jpg, .jpeg, and .svg. |
-| 6 | The x and y intercepts are highlighted on the graph |  |
+| 6 | Users can change the min and max x/y values for the graph window. | Users  should be able to input a specific value of the min and max. |
+| 7 | Users can switch between operating in degrees and radians. |  |
+| 8 | The x and y intercepts are highlighted on the graph |  |
 
 See more details about the graphing area component [here](./GraphingArea.md).
 
@@ -95,14 +97,6 @@ See more details about the keyboard component [here](./Keyboard.md).
 | 6 | Users can manipulate a variable within an equation to see the effect it has on the graph |  |
 
 See more details about the equation input area [here](./EquationInputArea.md).
-
-### Settings
-| # | Requirement | Notes |
-|---|:-------------|:-------|
-| 1 | Users can change the min and max x/y values for the graph window. | Users  should be able to input a specific value of the min and max. |
-| 2 | Users can switch between operating in degrees and radians. |  |
-
-See more details about settings [here](./Settings.md).
 
 ### Layout
 
