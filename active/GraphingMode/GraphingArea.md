@@ -50,7 +50,7 @@ In addition to sharing with other applications, the user should be able to save 
 
 ##### 6) Users can change the min and max x/y values for the graph window.
 
-![Graph Options](.\images\graphOptions.png)
+![Graph Options](./images/graphOptions.png)
 
 Users can manually specify the min and max values for x and y coordinates. A "lock aspect ratio" button allows users to quickly change these values while optimizing for a square graph area (e.g., -15 to 15).
 
