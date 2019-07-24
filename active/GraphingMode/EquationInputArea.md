@@ -58,4 +58,4 @@ For graphing mode, we will support freeform input, which means that users can pl
 
 > TODO: Annotate visual states
 
-![Equation Input States](.\images\equationInputStates.png)
+![Equation Input States](./images/equationInputStates.png)
