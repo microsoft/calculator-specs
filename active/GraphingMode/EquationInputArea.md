@@ -11,7 +11,7 @@ The equation inptu area is comprised of:
 - A list of global variables that have been used in equations that can be manipulated live to understand how changes impact plots
 - A button to add a new equation to the list
 
-![Equation Input Area](.\images\equationInputSample)
+![Equation Input Area](./images/equationInputSample.png)
 
 > Note: Style options in comp are slightly out-of-date; see below for more details.
 
@@ -40,7 +40,7 @@ x ^ 2 + √(2x)
 
 instead of this:
 
-![MathML Sample](.\images\mathMLSample)
+![MathML Sample](./images/mathMLSample.png)
 
 ##### 3) Users can input their equations with freeform input
 
