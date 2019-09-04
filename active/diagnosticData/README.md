@@ -4,9 +4,9 @@
 To make decisions about what user experiences to focus on, we need to understand which parts of calculator are used most often and whether they're working correctly. We want to update the app-specific diagnostic information Calculator is collecting to answer questions like these:
 
   1. Is Calculator app meeting its performance metrics?
-  2. Which Calculator mode is the best default experience?
-  3. Can users discover all the calculators and converters in the app?
-  4. What changes can we make to the keyboard layout to optimize for the most used operators?
+  2. Which modes are our users using most?
+  3. What percentage of users discover all of the different calculator/converter modes we offer?
+  4. Are our keyboard layouts optimized for how users use each mode?
   5. Are History and memory features used by the users?
   6. Does Calculator need to support multi-instance? 
   7. Where is the product non-fatally failing (error/exception)?
@@ -50,3 +50,4 @@ All events in below table are tagged:
 | VisualStateChanged | Logged when the user changes the visual state of the window via resizing | **CalcMode:** The Calculator mode<br> **VisualState:** The new visual state <br> **SessionGUID**  |
 | MemoryItemLoad | Logged when a memory item is clicked | **CalcMode:** The Calculator mode<br> **MemoryListSize:** The total number of memory items<br> **MemoryItemIndex:** The index of the invoked memory item <br> **SessionGUID** |
 | WindowCreated | Logged when the user instantiates multiple instance of the window | **CalcMode:** The Calculator Mode<br> **NumOfOpenWindows:** The number of open windows <br> **SessionGUID** |
+| InputPasted | Logged when the user pastes content into the calculator | **CalcMode:** The Calculator Mode <br> **SessionGUID** |
