@@ -13,7 +13,7 @@ The graphing area is comprised of:
 
 ![Graphing Area](./images/graphingAreaClean.png)
 
-> Note: Graph styling in comp is slightly out-of-date; tick mark values should appear along each axis instead of along the border.
+> Note: Graph styling in comp is slightly out-of-date; tick mark values should appear along each axis instead of along the border. Also, degrees and radians buttons should be swapped.
 
 #### Graphing Area Requirements
 
@@ -62,7 +62,7 @@ The default changes based on what equations are being plotted and is determined 
 
 ##### 7) Users can switch between operating in degrees and radians.
 
-When users toggle between degrees and radians, this affects all plots, as it is a global setting. The default is reset to degrees upon starting a new graphing session.
+When users toggle between degrees and radians, this affects all plots, as it is a global setting. The default is reset to radians upon starting a new graphing session.
 
 ##### 8) The x and y intercepts are highlighted on the graph
 
