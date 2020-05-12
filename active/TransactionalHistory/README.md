@@ -30,5 +30,6 @@ This will cause the 'running history' above the result text to clear. At which p
 - Measure community reaction via Github and Feedback hub
 
 ### High-Fidelity Concept
-
+Working prototype can be found here:
+https://github.com/joseartrivera/calculator-1/tree/standardprototype
 
