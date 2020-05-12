@@ -1,4 +1,4 @@
-# TransactionalHistory
+# Transactional History
 
 ### Problem Statement
 Calculator in Standard Mode displays equations such that users would expect order of operations rules to be followed when in reality the calculator runs in 'immediate execution' mode similiar to a simple pocket calculator.
