@@ -30,21 +30,24 @@ Sucess can be mesured with users, and engagement time.
 
 ### Feature Details and High-Fidelity Concept
 ### Dark mode
-![figure1 - Dark1](./Assets and images/FinancialCalculator Dark Mode.jpg)
+![figure1](./Assets_and_images/Fig1.jpg)
 The compound calculation page...
-![figure2 - Dark2](./Assets and images/FinancialCalculator NavBar Dark Mode.jpg)
+<br/>
+![figure2](./Assets_and_images/Fig4.jpg)
 Navbar...
 
 ### High-contrast
-![figure3 - Con1](./Assets and images/FinancialCalculator High Contrast.jpg)
-The compound calculation page (button seems that it needs tweaking)...
-![figure4 - Con2](./Assets and images/FinancialCalculator NavBar High Contrast.jpg)
+![figure3](./Assets_and_images/Fig2.jpg)
+The compound calculation page (button seems that it needs tweaking)…
+<br/>
+![figure4](./Assets_and_images/Fig5.jpg)
 Navbar...
 
 ### Light mode
-![figure5 - Light1](./Assets and images/FinancialCalculator Light Mode.jpg)
+![figure5](./Assets_and_images/Fig3.jpg)
 The compound calculation page...
-![figure6 - Light2](./Assets and images/FinancialCalculator NavBar Light Mode.jpg)
+<br/>
+![figure6](./Assets_and_images/Fig6.jpg)
 Navbar...
 
 _Tips calculator page images to be out soon_
