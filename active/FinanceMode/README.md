@@ -55,7 +55,7 @@ Navbar...
 
 _Tips calculator page images to be out soon_
 
-We can look at the [numberbox](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/master/active/NumberBox/NumberBox.md#:~:text=Xaml%20has%20a%20TextBox%20control%20for%20text%20input%2C,not%20as%20part%20of%20the%20Windows%20OS.%20Description) from the XAML team (it dosen't come as part of Windows OS, it comes with WinUI package).
+We can look at the [numberbox](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/master/active/NumberBox/NumberBox.md#:~:text=Xaml%20has%20a%20TextBox%20control%20for%20text%20input%2C,not%20as%20part%20of%20the%20Windows%20OS.%20Description) from the XAML team (it dosen't come as part of Windows OS, it comes with WinUI package 2.3 and 2.4).
 
 ### Appendix
 Phases:
