@@ -8,7 +8,7 @@ https://github.com/Microsoft/calculator/issues/806
 This will create a new calculation mode, "Financial". It will be similar to the date calculator with a combobox at the top to choose modes (current modes are Tip and Compound Interest). Target audience: Anyone with financial assets to people going out for lunch.
 
 ### Evidence or User Insights
-We should do this to offer more tools to calculator users and make this a more feature-packed calculator (GitHub issue: #806)
+We should do this to offer more tools to calculator users and make this a more feature-packed calculator (GitHub issue: [#806](https://github.com/Microsoft/calculator/issues/806))
 
 ### Proposal
 Create a new feature "Financial". With it, we can target investors and even students learning about financial responsibility.
@@ -34,6 +34,7 @@ Sucess can be mesured with users, and engagement time.
 The compound calculation page...
 <br/>
 ![figure2](./Assets_and_images/Fig4.jpg)
+<br/>
 Navbar...
 
 ### High-contrast
@@ -41,6 +42,7 @@ Navbar...
 The compound calculation page (button seems that it needs tweaking)…
 <br/>
 ![figure4](./Assets_and_images/Fig5.jpg)
+<br/>
 Navbar...
 
 ### Light mode
@@ -48,6 +50,7 @@ Navbar...
 The compound calculation page...
 <br/>
 ![figure6](./Assets_and_images/Fig6.jpg)
+<br/>
 Navbar...
 
 _Tips calculator page images to be out soon_
