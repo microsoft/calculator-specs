@@ -1,4 +1,4 @@
-### Financial Calculator
+## Financial Calculator
 <!-- Update with a concise title describing your feature. -->
 
 ### Feature Pitch Link
@@ -14,11 +14,11 @@ We should do this to offer more tools to calculator users and make this a more f
 Create a new feature "Financial". With it, we can target investors and even students learning about financial responsibility.
 
 ### Goals and Non-Goals
-## Goals
+### Goals
 * Create a compound interest calculator
 * Tips calculator
 
-## Non-Goals
+### Non-Goals
 * Even more modes
 
 ### Success Criteria
@@ -29,19 +29,19 @@ Sucess can be mesured with users, and engagement time.
 * Users can input the bill amout, tip percentage and if they want to split the bill (and if yes, between how many people) and recieve the result.
 
 ### Feature Details and High-Fidelity Concept
-## Dark mode
+### Dark mode
 ![figure1 - Dark1](./Assets and images/FinancialCalculator Dark Mode.jpg)
 The compound calculation page...
 ![figure2 - Dark2](./Assets and images/FinancialCalculator NavBar Dark Mode.jpg)
 Navbar...
 
-## High-contrast
+### High-contrast
 ![figure3 - Con1](./Assets and images/FinancialCalculator High Contrast.jpg)
 The compound calculation page (button seems that it needs tweaking)...
 ![figure4 - Con2](./Assets and images/FinancialCalculator NavBar High Contrast.jpg)
 Navbar...
 
-## Light mode
+### Light mode
 ![figure5 - Light1](./Assets and images/FinancialCalculator Light Mode.jpg)
 The compound calculation page...
 ![figure6 - Light2](./Assets and images/FinancialCalculator NavBar Light Mode.jpg)
