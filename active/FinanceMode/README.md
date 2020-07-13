@@ -29,34 +29,15 @@ Sucess can be mesured with users, and engagement time.
 * Users can input the bill amout, tip percentage and if they want to split the bill (and if yes, between how many people) and recieve the result.
 
 ### Feature Details and High-Fidelity Concept
-### Dark mode
 ![figure1](./Assets_and_images/Fig1.jpg)
-The compound calculation page...
+Navbar...
 <br/>
 ![figure2](./Assets_and_images/Fig4.jpg)
 <br/>
-Navbar...
-
-### High-contrast
+Results...
 ![figure3](./Assets_and_images/Fig2.jpg)
-The compound calculation page (button seems that it needs tweaking)…
+Finance Calc page…
 <br/>
-![figure4](./Assets_and_images/Fig5.jpg)
-<br/>
-Navbar...
-
-### Light mode
-![figure5](./Assets_and_images/Fig3.jpg)
-The compound calculation page...
-<br/>
-![figure6](./Assets_and_images/Fig6.jpg)
-<br/>
-Navbar...
-
-### Results
-![figure7] (./Assets_and_images/Fig7)
-<br/>
-Results.
 
 _Tips calculator page images to be out soon_
 
