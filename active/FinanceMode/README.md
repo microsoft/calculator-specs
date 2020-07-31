@@ -30,6 +30,7 @@ Sucess can be mesured with users, and engagement time.
 
 ### Feature Details and High-Fidelity Concept
 ![figure1](./Assets_and_images/Fig1.jpg)
+<br/>
 Navbar...
 <br/>
 ![figure2](./Assets_and_images/Fig2.jpg)
