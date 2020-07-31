@@ -32,10 +32,10 @@ Sucess can be mesured with users, and engagement time.
 ![figure1](./Assets_and_images/Fig1.jpg)
 Navbar...
 <br/>
-![figure2](./Assets_and_images/Fig4.jpg)
+![figure2](./Assets_and_images/Fig2.jpg)
 <br/>
 Results...
-![figure3](./Assets_and_images/Fig2.jpg)
+![figure3](./Assets_and_images/Fig3.jpg)
 Finance Calc page…
 <br/>
 
