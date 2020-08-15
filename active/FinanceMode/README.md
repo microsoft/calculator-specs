@@ -25,8 +25,10 @@ Create a new feature "Financial". With it, we can target investors and even stud
 Sucess can be mesured with users, and engagement time.
 
 ### Feature Requirements
-* Users can input Base Rate, term, times compounded, and interest rate to get the future rate.
+* Users can input Principle, term (in day, month or year), times compounded (per year), and interest rate (percentage or decimal) to get the future rate.
+> Formula: Future Value = Principle(1+(interest [in decimal]/frequency))^Years* Frequency [[1]](https://www.wikihow.com/Calculate-Compound-Interest#:~:text=Part%202%20of%203%3A%20Calculating%20Compound%20Interest%20on,you%20are%20inputting%20them%20correctly.%20More%20items...%20).
 * Users can input the bill amout, tip percentage and if they want to split the bill (and if yes, between how many people) and recieve the result.
+> Fomula: Total = Amount Due * 1.Tip (percentage) [[2]](https://www.calculatorsoup.com/calculators/financial/tip-calculator.php)
 
 ### Feature Details and High-Fidelity Concept
 ![figure1](./Assets_and_images/Fig1.jpg)
@@ -61,5 +63,8 @@ Risks and Open Issues:
 Open issue: I think the everything is up for discussion. 
 Risks: I don't think there are.
 
+### References
+1. [Wikihow - How to calculate Compound Interest](https://www.wikihow.com/Calculate-Compound-Interest#:~:text=Part%202%20of%203%3A%20Calculating%20Compound%20Interest%20on,you%20are%20inputting%20them%20correctly.%20More%20items...%20)
+2. [CalculatorSoup - Tip Calculator](https://www.calculatorsoup.com/calculators/financial/tip-calculator.php)
 
 Note: These are the earliest iterations of the calc and is _subject to change_.
