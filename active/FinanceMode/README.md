@@ -35,11 +35,22 @@ Navbar...
 <br/>
 ![figure2](./Assets_and_images/Fig2.jpg)
 <br/>
-Results...
-![figure3](./Assets_and_images/Fig3.jpg)
 Finance Calc page…
 <br/>
-
+The result should be the same as long as the the values are equal (just in different, e.g. 365 days, 12 months, 1 year)
+<br/>
+![figure3](./Assets_and_images/Fig3.jpg)
+<br/>
+Results (1)...
+<br/>
+![figure4](./Assets_and_images/Fig4.jpg
+<br/>
+Results (2)...
+<br/>
+![figure5](./Assets_and_images/Fig5.jpg)
+<br/>
+Results (3)...
+<br/>
 _Tips calculator page images to be out soon_
 
 ### Appendix
