@@ -43,7 +43,7 @@ The result should be the same as long as the the values are equal (just in diffe
 <br/>
 Results (1)...
 <br/>
-![figure4](./Assets_and_images/Fig4.jpg
+![figure4](./Assets_and_images/Fig4.jpg)
 <br/>
 Results (2)...
 <br/>
