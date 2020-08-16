@@ -53,6 +53,9 @@ Results (2)...
 <br/>
 Results (3)...
 <br/>
+![figure6](./Assets_and_images/Fig6.jpg)
+<br/>
+If one or more fields are not filled out, an error will show.
 _Tips calculator page images to be out soon_
 
 ### Appendix
@@ -67,4 +70,4 @@ Risks: I don't think there are.
 1. [Wikihow - How to calculate Compound Interest](https://www.wikihow.com/Calculate-Compound-Interest#:~:text=Part%202%20of%203%3A%20Calculating%20Compound%20Interest%20on,you%20are%20inputting%20them%20correctly.%20More%20items...%20)
 2. [CalculatorSoup - Tip Calculator](https://www.calculatorsoup.com/calculators/financial/tip-calculator.php)
 
-Note: These are the earliest iterations of the calc and is _subject to change_.
+Note: These are the earliest iterations of the calc and is _subject to change_. All mocks are from my prototype that can be found at [chips1234/calculator:FinancialSpec](https://github.com/Chips1234/calculator/tree/FinancialSpec)
