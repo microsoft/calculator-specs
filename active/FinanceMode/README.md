@@ -31,12 +31,13 @@ Sucess can be mesured with users, and engagement time.
 > Fomula: Total = Amount Due * 1.Tip (percentage) [[2]](https://www.calculatorsoup.com/calculators/financial/tip-calculator.php)
 
 ### Feature Details and High-Fidelity Concept
+
 ![figure1](./Assets_and_images/Fig1.jpg)
 <br/>
 Navbar...
 <br/>
 ### Compoound Interest Page
-<br/>
+
 ![figure2](./Assets_and_images/Fig2.jpg)
 <br/>
 Compound Interest Page…
@@ -60,7 +61,7 @@ Results (3)...
 If one or more fields are not filled out, an error will show.
 
 ### Tip page
-<br/>
+
 ![figure7](./Assets_and_images/Fig7.jpg)
 <br/>
 Tip calculation page, without splitbill on
