@@ -35,9 +35,11 @@ Sucess can be mesured with users, and engagement time.
 <br/>
 Navbar...
 <br/>
+### Compoound Interest Page
+<br/>
 ![figure2](./Assets_and_images/Fig2.jpg)
 <br/>
-Finance Calc page…
+Compound Interest Page…
 <br/>
 The result should be the same as long as the the values are equal (just in different, e.g. 365 days, 12 months, 1 year)
 <br/>
@@ -56,7 +58,28 @@ Results (3)...
 ![figure6](./Assets_and_images/Fig6.jpg)
 <br/>
 If one or more fields are not filled out, an error will show.
-_Tips calculator page images to be out soon_
+
+### Tip page
+<br/>
+![figure7](./Assets_and_images/Fig7.jpg)
+<br/>
+Tip calculation page, without splitbill on
+<br/>
+![figure8](./Assets_and_images/Fig8.jpg)
+<br/>
+Tip calculation page, with splitbill on
+<br/>
+![figure9](./Assets_and_images/Fig9.jpg)
+<br/>
+Tip calculation, Results (1)
+<br/>
+![figure10](./Assets_and_images/Fig10.jpg)
+<br/>
+Tip calculation, Results (2)
+<br/>
+![figure11](./Assets_and_images/Fig11.jpg)
+<br/>
+Tip calculation, Results (3)
 
 ### Appendix
 Phases:
