@@ -1,11 +1,10 @@
 ## Financial Calculator
-<!-- Update with a concise title describing your feature. -->
 
 ### Feature Pitch Link
 https://github.com/Microsoft/calculator/issues/806
 
 ### Problem Statement
-This will create a new calculation mode, "Financial". It will be similar to the date calculator with a combobox at the top to choose modes (current modes are Tip and Compound Interest). Target audience: Anyone with financial assets to people going out for lunch.
+This will create a new calculation mode, "Financial". It will be similar to the date calculator with a combobox at the top to choose modes (current modes are Tip calculation and Compound Interest). Target audience: Anyone from financial investors to people going out for lunch.
 
 ### Evidence or User Insights
 We should do this to offer more tools to calculator users and make this a more feature-packed calculator (GitHub issue: [#806](https://github.com/Microsoft/calculator/issues/806))
@@ -81,6 +80,10 @@ Tip calculation, Results (2)
 ![figure11](./Assets_and_images/Fig11.jpg)
 <br/>
 Tip calculation, Results (3)
+<br/>
+![figure12](./Assets_and_images/Fig12.jpg)
+<br/>
+Just like the compound interest calculator, if one or more fields are empty, it will display a warning.
 
 ### Appendix
 Phases:
