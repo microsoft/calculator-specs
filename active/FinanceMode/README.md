@@ -10,12 +10,17 @@ This will create a new calculation mode, "Financial". It will be similar to the 
 We should do this to offer more tools to calculator users and make this a more feature-packed calculator (GitHub issue: [#806](https://github.com/Microsoft/calculator/issues/806))
 
 ### Proposal
-Create a new feature "Financial". With it, we can target investors and even students learning about financial responsibility.
+Create a new feature "Financial". With it, we can target investors and even students learning about finance. As Windows Calculator from Windows 7 had a few worksheets to calculate mortgage, fuel economy, etc so it will be easier for people transitioning from Win7 to Win10:
+<br/>
+![Win7Calc](./Assets_and_images/Win7Calc.jpg)
+<br/>
+The Mortagage Calculator in Windows 7 Calculator
 
 ### Goals and Non-Goals
 ### Goals
-* Create a compound interest calculator
+* Create a compound interest calculator (Find future value and principle)
 * Tips calculator
+* Mortgage Calculator 
 
 ### Non-Goals
 * Even more modes
