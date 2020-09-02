@@ -63,6 +63,10 @@ Results (3)...
 ![figure6](./Assets_and_images/Fig6.jpg)
 <br/>
 If one or more fields are not filled out, an error will show.
+<br/>
+![ReflowFig1](./Assets_and_images/ReflowFig1.jpg)
+<br/>
+Here's how it will look when minimied to the smallest possible size.
 
 ### Tip page
 
