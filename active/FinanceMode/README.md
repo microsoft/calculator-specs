@@ -4,7 +4,7 @@
 https://github.com/Microsoft/calculator/issues/806
 
 ### Problem Statement
-This will create a new calculation mode, "Financial". It will be similar to the date calculator with a combobox at the top to choose modes (modes are tip calculator, compound interest, and mortgage calculator). Target audience: Anyone from financial investors to people going out for lunch.
+This will create a new calculation mode, "Financial Worksheets". It will be similar to the date calculator with a combobox at the top to choose modes (modes are tip calculator, compound interest, and mortgage calculator). Target audience: Anyone from financial investors to people going out for lunch.
 
 ### Evidence or User Insights
 We should do this to offer more tools to calculator users and make this a more feature-packed calculator (GitHub issue: [#806](https://github.com/Microsoft/calculator/issues/806)) and also [Feedback Hub feedback](https://aka.ms/AA9kceq)
@@ -48,9 +48,9 @@ Navbar...
 
 ![figure2](./Assets_and_images/Fig2.jpg)
 <br/>
-Compound Interest Page…
+Compound interest page, on the calculate future value mode…
 <br/>
-The result should be the same as long as the the values are equal (just in different, e.g. 365 days, 12 months, 1 year)
+The result should be the same as long as the the values are equal (just in different time formats, e.g. 365 days equals to 12 months, witch eaquals to 1 year)
 <br/>
 ![figure3](./Assets_and_images/Fig3.jpg)
 <br/>
@@ -64,9 +64,21 @@ Results (2)...
 <br/>
 Results (3)...
 <br/>
-![figure6](./Assets_and_images/Fig6.jpg)
+![figure5](./Assets_and_images/Fig6.jpg)
 <br/>
-If one or more fields are not filled out, an error will show.
+Results (4)...
+<br/>
+![figure7](./Assets_and_images/Fig7.jpg)
+<br/>
+If one or more fields are not filled in, an error will show.
+<br/>
+![figure8](./Assets_and_images/Fig8.jpg)
+<br/>
+The calculate principle page, if all fields are filled in, the principle field's text does not clear.
+<br/>
+![gif1](./Assets_and_images/Gif1.gif)
+<br/>
+Changing modes, as you can see, the principle/future value number box value is filled in automatically.
 <br/>
 ![ReflowFig1](./Assets_and_images/ReflowFig1.jpg)
 <br/>
