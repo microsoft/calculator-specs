@@ -7,7 +7,7 @@ https://github.com/microsoft/calculator/issues/138
 
 
 ### Problem Statement
-This is a request for a feature improvement that will bring clarity to how the standard mode works on Microsoft’s Calculator.  
+This is a request for a feature improvement that will bring clarity to how standard mode works on Microsoft’s Calculator.  
 
 
 ### User Need
@@ -17,22 +17,22 @@ Users find standard mode in calculator to be confusing since equations are displ
 ### Context
 
 #### Definitions
-Single number operators: √, X^2, %, 1/x 
+Unary operators: √, X^2, %, 1/x 
 
-Double number operators: *, +, -, ÷  
+Binary operators: *, +, -, ÷  
 
-Immediate mode: The mode that Windows Calculator currently runs where calculations are being made left-to-right immediately for double operators and immediately after the last entered number for single operators. 
+Immediate mode: The mode that Windows Calculator currently runs where calculations are being made left-to-right immediately for binary operators and immediately after the last entered number for unary operators. 
 The issue is occurring because the UI displays the calculations as a multi operator equation and doesn’t explicitly state that the calculations are being made in immediate mode. 
 
 #### Examples
 
-Single operator example
+Unary operator example
 
 1 + 4% is calculating 1 + (4%) = 1.04 
 
-Double number operator example
+Binary number operator example
 
-When users enter a double number operator, the calculator is calculating the sum when the next double number operator is entered or when it receives an equal sign as input. 
+When users enter a binary operator, the calculator is calculating the sum when the next binary operator is entered or when it receives an equal sign as input. 
 
 1 + 4 * 6 is calculating 1 + 4 =5 first, then taking the result and calculating  5 * 6 = 30 
 
@@ -54,7 +54,7 @@ Equation in the history box
 By updating these equations, users will be able to follow their calculations as the calculations are being calculated at each stage. 
 
 ### UX Proposal 
-This shows the updated equation for double number operators. In this example, the user is adding 1 + 2 and then clicks a second double number operator. This will immediately display a calculation both in the equation above and in the history box.  
+This shows the updated equation for binary operators. In this example, the user is adding 1 + 2 and then clicks a second binary operator. This will immediately display a calculation both in the equation above and in the history box.  
 
 Note – the purple button signifies the user clicking on input. The screen following a click will be the consequence of the click.  
  
@@ -66,7 +66,7 @@ https://user-images.githubusercontent.com/6334170/81622529-0cfd4300-93a6-11ea-8f
 
 ![image](https://user-images.githubusercontent.com/2113188/98876669-9d8b0d80-2433-11eb-95e6-e948e8d6a006.png)
 
-In this example, the user is adding 1 + 2 again, but instead of clicking on a double number operator, the user will click on a single number operator (x^2), which will immediately act on the last number that was entered. The next action in this case is to click on equal symbol, but if the user had clicked on a double number operator, it would have had the same output. 
+In this example, the user is adding 1 + 2 again, but instead of clicking on a binary operator, the user will click on a unary number operator (x^2), which will immediately act on the last number that was entered. The next action in this case is to click on equal symbol, but if the user had clicked on a binary operator, it would have had the same output. 
 
 
 ### Appendix
