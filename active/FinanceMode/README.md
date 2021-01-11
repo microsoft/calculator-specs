@@ -115,11 +115,11 @@ Phases:
 Look at devoloping more modes later on.
 
 Risks and Open Issues:
-Open issue: I think the everything is up for discussion. 
-Risks: I don't think there are.
+Open issue: I think the everything is up for discussion, including (but not limited to), more modes, rearrange UI, etc. 
+Risks: I do not beieve there are any risks.
 
 ### References
 1. [Wikihow - How to calculate Compound Interest](https://www.wikihow.com/Calculate-Compound-Interest#:~:text=Part%202%20of%203%3A%20Calculating%20Compound%20Interest%20on,you%20are%20inputting%20them%20correctly.%20More%20items...%20)
 2. [CalculatorSoup - Tip Calculator](https://www.calculatorsoup.com/calculators/financial/tip-calculator.php)
 
-Note: These are the earliest iterations of the calc and is _subject to change_. All mocks are from my prototype that can be found at [chips1234/calculator:FinancialSpec](https://github.com/Chips1234/calculator/tree/FinancialSpec)
+Note: These are the earliest iterations of the calculator and is _subject to change_. All mocks are from my prototype, which can be found at [chips1234/calculator:FinancialSpec](https://github.com/Chips1234/calculator/tree/FinancialSpec)
