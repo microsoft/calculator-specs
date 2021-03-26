@@ -1,5 +1,28 @@
 
 # Calculator Specs
+sdfssssssssssss
+sdffffffffffff
+sdfdgsdgsdg
+sdgdg
+
+asdasdasdas
+asdasdasf
+asfasf
+asfasf
+asfafsasf
+afs
+asfasf
+asf
+asf
+gsdsagggggggggg
+afs
+asf
+asfa
+f
+fas
+faf
+dgsg
+sdgds
 The Windows Calculator app is a modern Windows app written in C++ that ships pre-installed with Windows.
 This repository contains in-progress and archived spec documents for new features in
 [Microsoft/calculator](https://github.com/Microsoft/calculator).
