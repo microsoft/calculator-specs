@@ -21,16 +21,16 @@ User can easily specify what mode the calculator should use upon launch via the 
 ### Feature Details and High-Fidelity Concept
 Below are some graphics suggesting what this might look like:
 ![Figure 1: The "Settings" page with the new "Behaviour on Launch" section](./Assets_and_Images/Settings_page_with_new_launch_behaviour_settings.jpg)
-*Figure 1: The "Settings" page with the new "Behaviour on Launch" section*
+<br/>*Figure 1: The "Settings" page with the new "Behaviour on Launch" section*
 
 ![Figure 2: The "Default launch behaviour" expander open](./Assets_and_Images/Settings_launch_behaviour_expander_open.jpg)
-*Figure 2: The "Default launch behaviour" expander open*
+<br/>*Figure 2: The "Default launch behaviour" expander open*
 
 ![Figure 3: The options in the combobox](./Assets_and_Images/Settings_launch_behaviour_combobox.jpg)
-*Figure 3: The options in the combobox*
+<br/>*Figure 3: The options in the combobox*
 
 ![Figure 4: Small window view](./Assets_and_Images/Settings_launch_behaviour_small_view.jpg)
-*Figure 4: Small window view*
+<br/>*Figure 4: Small window view*
 
 NOTE: these titles and descriptions are up for discussion and are subject to change.
 These graphics are based on my [calculator fork's "LaunchBehaviourSpec" branch](https://github.com/Chips1234/calculator/tree/LaunchBahviourSpec)
