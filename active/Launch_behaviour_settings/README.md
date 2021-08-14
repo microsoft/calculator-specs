@@ -32,7 +32,7 @@ Below are some graphics suggesting what this might look like:
 ![Figure 4: Small window view](./Assets_and_Images/Settings_launch_behaviour_small_view.jpg)
 <br/>*Figure 4: Small window view*
 
-NOTE: these titles and descriptions are up for discussion and are subject to change.
+NOTE: these titles and descriptions are up for discussion and are subject to change. <br/>
 These graphics are based on my [calculator fork's "LaunchBehaviourSpec" branch](https://github.com/Chips1234/calculator/tree/LaunchBahviourSpec)
 
 ### Appendix
