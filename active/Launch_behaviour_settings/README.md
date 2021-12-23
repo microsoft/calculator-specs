@@ -4,13 +4,13 @@
 https://github.com/Microsoft/calculator/Issues/486
 
 ### Problem Statement
-Currently, the calculator launches in whatever calculator or converter the user previously used. Some users have displayed frustration in this system, since the user has to first switch from whatever mode they last used — be it a calculator or a converter — to standard mode or scientific to do some calculations (the user that reported issue #486 reported that one needs seven clicks to do a calculation). 
+Currently, Windows Calculator launches in whichever calculator or converter the user previously used. Some users have displayed frustration in this system, since the user has to first switch from whatever mode they last used — be it a calculator or a converter — to standard mode or scientific to do some calculations (the user that reported issue #486 stated that a user needs seven clicks to do a calculation). 
 
 ### Evidence or User Insights
 Github issue microsoft/calculator#486, Feedback hub issues.
 
 ### Proposal
-Add a new setting in the "Settings" page, prompting the user to specify what to do upon launch. The default shall be to use the most recently used calculator or converter upon launch.
+Add a new setting in the "Settings" page, prompting the user to specify what to do upon launch: use previously used mode, use standard, scientific, programmer, graphing, or date calculation. The default shall be to use the most recently used calculator or converter upon launch.
 
 ### Goals and Non-Goals
 Goal: to allow the user to choose what calculator mode should be used upon launch of app.
@@ -32,9 +32,9 @@ Below are some graphics suggesting what this might look like:
 ![Figure 4: Small window view](./Assets_and_Images/Settings_launch_behaviour_small_view.jpg)
 <br/>*Figure 4: Small window view*
 
-NOTE: these titles and descriptions are up for discussion and are subject to change. <br/>
+NOTE: the above are only concepts; the final design may vary, and is subject to change. <br/>
 These graphics are based on my [calculator fork's "LaunchBehaviourSpec" branch](https://github.com/Chips1234/calculator/tree/LaunchBahviourSpec)
 
 ### Appendix
-Risks: I do not see any.
-Phases: I don't think this requires phases to be implemented.
+Risks: Not applicable.
+Phases: Not needed.
