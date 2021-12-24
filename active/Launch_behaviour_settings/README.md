@@ -1,7 +1,7 @@
 ### Setting to specify what mode to use upon application's launch
 
 ### Feature Pitch Link
-https://github.com/microsoft/calculator/Issues/486
+https://github.com/microsoft/calculator/issues/486
 
 ### Problem Statement
 Currently, Windows Calculator launches in whichever calculator or converter the user previously used. Some users have displayed frustration in this system, since the user has to first switch from whatever mode they last used — be it a calculator or a converter — to standard mode or scientific to do some calculations (the user that reported issue #486 stated that a user needs seven clicks to do a calculation). 
