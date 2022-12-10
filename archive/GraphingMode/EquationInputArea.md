@@ -1,11 +1,11 @@
 ## Equation Input Area
 
-The equation inptu area is comprised of:
+The equation input area is comprised of:
 
 - A list of equation input boxes, each of which supports
   - Ability to input/edit a math equation
   - Ability to toggle visibility of the equation
-  - Ability to analzye the equation for key graph features (e.g., zeroes, intercepts, etc.)
+  - Ability to analyze the equation for key graph features (e.g., zeroes, intercepts, etc.)
   - Ability to customize the style of the line
   - Ability to delete the equation from the list
 - A list of global variables that have been used in equations that can be manipulated live to understand how changes impact plots
@@ -44,7 +44,7 @@ instead of this:
 
 ##### 3) Users can input their equations with freeform input
 
-In other calculator modes, when you input an expression, you are comitting previous input with each operator, which means that you cannot easily edit or undo what you have already comitted. We also have a key mapping such that keyboard keys are mapped to specific button inputs. This means that to enter "cos()", you actually press <kbd>o</kbd>. This is unintuitive and makes entering equations difficult.
+In other calculator modes, when you input an expression, you are committing previous input with each operator, which means that you cannot easily edit or undo what you have already committed. We also have a key mapping such that keyboard keys are mapped to specific button inputs. This means that to enter "cos()", you actually press <kbd>o</kbd>. This is unintuitive and makes entering equations difficult.
 
 For graphing mode, we will support freeform input, which means that users can place the cursor anywhere inside of an equation input box to edit the expression. This also means that users can type or paste in "cos(x)", which feels natural, as this is how you would write this expression up on a whiteboard.
 
